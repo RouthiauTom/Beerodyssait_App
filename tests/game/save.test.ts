@@ -1,0 +1,10 @@
+import {it,expect} from 'vitest';
+import {validSave} from '../../src/storage/save';
+import {createGame} from '../../src/game/engine';
+import board from '../../data/board.json';
+const game=()=>createGame([{id:'a',name:'Alice',tokenId:'1',color:'#000'},{id:'b',name:'Bob',tokenId:'2',color:'#fff'}],'fr',board);
+it('accepts an intact JSON roundtrip',()=>expect(validSave(JSON.parse(JSON.stringify(game())))).toBe(true));
+it('rejects missing state fields and unknown versions',()=>{expect(validSave({})).toBe(false);expect(validSave({...game(),schemaVersion:99})).toBe(false);});
+it('rejects corrupt players and out-of-range positions',()=>{expect(validSave({...game(),players:[null,null]})).toBe(false);expect(validSave({...game(),players:game().players.map(p=>({...p,position:61}))})).toBe(false);});
+it('rejects a question with missing deadline or unknown content',()=>{expect(validSave({...game(),phase:'question',activeQuestionId:1})).toBe(false);expect(validSave({...game(),phase:'question',activeQuestionId:9999,deadline:60000})).toBe(false);});
+it('rejects a correction without a consequence',()=>expect(validSave({...game(),phase:'correction',activeQuestionId:1,positionBeforeRoll:0})).toBe(false));

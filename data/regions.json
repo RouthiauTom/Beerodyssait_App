@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "fr": "Belgique",
+    "en": "Belgium",
+    "code": "BE"
+  },
+  {
+    "id": 2,
+    "fr": "Allemagne",
+    "en": "Germany",
+    "code": "DE"
+  },
+  {
+    "id": 3,
+    "fr": "Tchéquie",
+    "en": "Czechia",
+    "code": "CZ"
+  },
+  {
+    "id": 4,
+    "fr": "Angleterre",
+    "en": "England",
+    "code": "EN"
+  },
+  {
+    "id": 5,
+    "fr": "Irlande",
+    "en": "Ireland",
+    "code": "IE"
+  },
+  {
+    "id": 6,
+    "fr": "France",
+    "en": "France",
+    "code": "FR"
+  },
+  {
+    "id": 7,
+    "fr": "États-Unis",
+    "en": "United States",
+    "code": "US"
+  },
+  {
+    "id": 8,
+    "fr": "Écosse",
+    "en": "Scotland",
+    "code": "SC"
+  },
+  {
+    "id": 9,
+    "fr": "Pologne",
+    "en": "Poland",
+    "code": "PL"
+  },
+  {
+    "id": 10,
+    "fr": "Finlande",
+    "en": "Finland",
+    "code": "FI"
+  }
+]

@@ -1,0 +1,4594 @@
+{
+  "schemaVersion": 1,
+  "edition": "Beerodys’Sait — banque originale v1",
+  "questions": [
+    {
+      "id": 1,
+      "categoryId": 1,
+      "regionId": null,
+      "difficulty": 1,
+      "type": "qcm",
+      "correctChoiceIds": [
+        "A"
+      ],
+      "translations": {
+        "fr": {
+          "question": "Dans quelle ville est née la Pilsner Urquell ?",
+          "expectedAnswer": "Plzeň",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Plzeň"
+            },
+            {
+              "id": "B",
+              "text": "Dublin"
+            },
+            {
+              "id": "C",
+              "text": "Lille"
+            }
+          ]
+        },
+        "en": {
+          "question": "In which city was Pilsner Urquell first brewed?",
+          "expectedAnswer": "Plzeň",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Plzeň"
+            },
+            {
+              "id": "B",
+              "text": "Dublin"
+            },
+            {
+              "id": "C",
+              "text": "Lille"
+            }
+          ]
+        }
+      },
+      "sources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/3/3b-czech-premium-pale-lager"
+      ],
+      "provenance": {
+        "status": "original_bilingual_source_checked",
+        "checkedOn": "2026-10-13"
+      }
+    },
+    {
+      "id": 2,
+      "categoryId": 1,
+      "regionId": null,
+      "difficulty": 1,
+      "type": "qcm",
+      "correctChoiceIds": [
+        "B"
+      ],
+      "translations": {
+        "fr": {
+          "question": "Quel style sombre apparaît à Londres au début du XVIIIe siècle ?",
+          "expectedAnswer": "Le porter",
+          "choices": [
+            {
+              "id": "A",
+              "text": "La witbier"
+            },
+            {
+              "id": "B",
+              "text": "Le porter"
+            },
+            {
+              "id": "C",
+              "text": "La saison"
+            }
+          ]
+        },
+        "en": {
+          "question": "Which dark style emerged in London in the early 18th century?",
+          "expectedAnswer": "Porter",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Witbier"
+            },
+            {
+              "id": "B",
+              "text": "Porter"
+            },
+            {
+              "id": "C",
+              "text": "Saison"
+            }
+          ]
+        }
+      },
+      "sources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/13/13c-english-porter"
+      ],
+      "provenance": {
+        "status": "original_bilingual_source_checked",
+        "checkedOn": "2026-10-13"
+      }
+    },
+    {
+      "id": 3,
+      "categoryId": 1,
+      "regionId": null,
+      "difficulty": 1,
+      "type": "qcm",
+      "correctChoiceIds": [
+        "C"
+      ],
+      "translations": {
+        "fr": {
+          "question": "Quel pays a vu sa culture de la bière inscrite à l’UNESCO en 2016 ?",
+          "expectedAnswer": "La Belgique",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Le Canada"
+            },
+            {
+              "id": "B",
+              "text": "Le Portugal"
+            },
+            {
+              "id": "C",
+              "text": "La Belgique"
+            }
+          ]
+        },
+        "en": {
+          "question": "Which country's beer culture was inscribed by UNESCO in 2016?",
+          "expectedAnswer": "Belgium",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Canada"
+            },
+            {
+              "id": "B",
+              "text": "Portugal"
+            },
+            {
+              "id": "C",
+              "text": "Belgium"
+            }
+          ]
+        }
+      },
+      "sources": [
+        "https://ich.unesco.org/en/RL/beer-culture-in-belgium-01062"
+      ],
+      "provenance": {
+        "status": "original_bilingual_source_checked",
+        "checkedOn": "2026-10-13"
+      }
+    },
+    {
+      "id": 4,
+      "categoryId": 1,
+      "regionId": null,
+      "difficulty": 1,
+      "type": "true_false",
+      "correctChoiceIds": [
+        "true"
+      ],
+      "translations": {
+        "fr": {
+          "question": "La bière de garde possède des racines dans le nord de la France.",
+          "expectedAnswer": "Vrai. La bière de garde possède des racines dans le nord de la France.",
+          "choices": []
+        },
+        "en": {
+          "question": "Bière de garde has roots in northern France.",
+          "expectedAnswer": "True. Bière de garde has roots in northern France.",
+          "choices": []
+        }
+      },
+      "sources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/24/24c-biere-de-garde"
+      ],
+      "provenance": {
+        "status": "original_bilingual_source_checked",
+        "checkedOn": "2026-10-13"
+      }
+    },
+    {
+      "id": 5,
+      "categoryId": 1,
+      "regionId": null,
+      "difficulty": 1,
+      "type": "qcm",
+      "correctChoiceIds": [
+        "B"
+      ],
+      "translations": {
+        "fr": {
+          "question": "Les appellations brassicoles en « shillings » appartiennent à quelle tradition ?",
+          "expectedAnswer": "Écossaise",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Japonaise"
+            },
+            {
+              "id": "B",
+              "text": "Écossaise"
+            },
+            {
+              "id": "C",
+              "text": "Mexicaine"
+            }
+          ]
+        },
+        "en": {
+          "question": "Beer names expressed in “shillings” belong to which tradition?",
+          "expectedAnswer": "Scottish",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Japanese"
+            },
+            {
+              "id": "B",
+              "text": "Scottish"
+            },
+            {
+              "id": "C",
+              "text": "Mexican"
+            }
+          ]
+        }
+      },
+      "sources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/14/14a-scottish-light"
+      ],
+      "provenance": {
+        "status": "original_bilingual_source_checked",
+        "checkedOn": "2026-10-13"
+      }
+    },
+    {
+      "id": 6,
+      "categoryId": 1,
+      "regionId": null,
+      "difficulty": 2,
+      "type": "qcm",
+      "correctChoiceIds": [
+        "C"
+      ],
+      "translations": {
+        "fr": {
+          "question": "En quelle année la Pilsner Urquell a-t-elle été brassée pour la première fois ?",
+          "expectedAnswer": "1842",
+          "choices": [
+            {
+              "id": "A",
+              "text": "1742"
+            },
+            {
+              "id": "B",
+              "text": "1942"
+            },
+            {
+              "id": "C",
+              "text": "1842"
+            }
+          ]
+        },
+        "en": {
+          "question": "In which year was Pilsner Urquell first brewed?",
+          "expectedAnswer": "1842",
+          "choices": [
+            {
+              "id": "A",
+              "text": "1742"
+            },
+            {
+              "id": "B",
+              "text": "1942"
+            },
+            {
+              "id": "C",
+              "text": "1842"
+            }
+          ]
+        }
+      },
+      "sources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/3/3b-czech-premium-pale-lager"
+      ],
+      "provenance": {
+        "status": "original_bilingual_source_checked",
+        "checkedOn": "2026-10-13"
+      }
+    },
+    {
+      "id": 7,
+      "categoryId": 1,
+      "regionId": null,
+      "difficulty": 2,
+      "type": "qcm",
+      "correctChoiceIds": [
+        "A"
+      ],
+      "translations": {
+        "fr": {
+          "question": "Qui détenait autrefois un monopole sur la bière de blé en Bavière ?",
+          "expectedAnswer": "La royauté bavaroise",
+          "choices": [
+            {
+              "id": "A",
+              "text": "La royauté bavaroise"
+            },
+            {
+              "id": "B",
+              "text": "La royauté irlandaise"
+            },
+            {
+              "id": "C",
+              "text": "La royauté suédoise"
+            }
+          ]
+        },
+        "en": {
+          "question": "Who once held a monopoly on wheat beer in Bavaria?",
+          "expectedAnswer": "Bavarian royalty",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Bavarian royalty"
+            },
+            {
+              "id": "B",
+              "text": "Irish royalty"
+            },
+            {
+              "id": "C",
+              "text": "Swedish royalty"
+            }
+          ]
+        }
+      },
+      "sources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/10/10a-weissbier"
+      ],
+      "provenance": {
+        "status": "original_bilingual_source_checked",
+        "checkedOn": "2026-10-13"
+      }
+    },
+    {
+      "id": 8,
+      "categoryId": 1,
+      "regionId": null,
+      "difficulty": 2,
+      "type": "qcm",
+      "correctChoiceIds": [
+        "B"
+      ],
+      "translations": {
+        "fr": {
+          "question": "Quelle bière de 1975 est souvent citée dans l’histoire de l’IPA américaine moderne ?",
+          "expectedAnswer": "Anchor Liberty Ale",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Saison Dupont"
+            },
+            {
+              "id": "B",
+              "text": "Anchor Liberty Ale"
+            },
+            {
+              "id": "C",
+              "text": "Pilsner Urquell"
+            }
+          ]
+        },
+        "en": {
+          "question": "Which 1975 beer is often cited in the history of modern American IPA?",
+          "expectedAnswer": "Anchor Liberty Ale",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Saison Dupont"
+            },
+            {
+              "id": "B",
+              "text": "Anchor Liberty Ale"
+            },
+            {
+              "id": "C",
+              "text": "Pilsner Urquell"
+            }
+          ]
+        }
+      },
+      "sources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/21/21a-american-ipa"
+      ],
+      "provenance": {
+        "status": "original_bilingual_source_checked",
+        "checkedOn": "2026-10-13"
+      }
+    },
+    {
+      "id": 9,
+      "categoryId": 1,
+      "regionId": null,
+      "difficulty": 2,
+      "type": "open",
+      "correctChoiceIds": [],
+      "translations": {
+        "fr": {
+          "question": "Pourquoi brassait-on historiquement la bière de garde au début du printemps ?",
+          "expectedAnswer": "Pour la conserver en cave froide jusqu’aux mois plus chauds.",
+          "choices": []
+        },
+        "en": {
+          "question": "Why was bière de garde historically brewed in early spring?",
+          "expectedAnswer": "To keep it in cold cellars for the warmer months.",
+          "choices": []
+        }
+      },
+      "sources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/24/24c-biere-de-garde"
+      ],
+      "provenance": {
+        "status": "original_bilingual_source_checked",
+        "checkedOn": "2026-10-13"
+      }
+    },
+    {
+      "id": 10,
+      "categoryId": 1,
+      "regionId": null,
+      "difficulty": 2,
+      "type": "true_false",
+      "correctChoiceIds": [
+        "true"
+      ],
+      "translations": {
+        "fr": {
+          "question": "Les stouts étaient à l’origine appelés « stout porters ».",
+          "expectedAnswer": "Vrai. Les stouts étaient à l’origine appelés « stout porters ».",
+          "choices": []
+        },
+        "en": {
+          "question": "Stouts were originally called “stout porters”.",
+          "expectedAnswer": "True. Stouts were originally called “stout porters”.",
+          "choices": []
+        }
+      },
+      "sources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/13/13c-english-porter"
+      ],
+      "provenance": {
+        "status": "original_bilingual_source_checked",
+        "checkedOn": "2026-10-13"
+      }
+    },
+    {
+      "id": 11,
+      "categoryId": 1,
+      "regionId": null,
+      "difficulty": 3,
+      "type": "qcm",
+      "correctChoiceIds": [
+        "B"
+      ],
+      "translations": {
+        "fr": {
+          "question": "Quel brasseur est associé au premier brassin de Pilsner Urquell ?",
+          "expectedAnswer": "Josef Groll",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Louis Pasteur"
+            },
+            {
+              "id": "B",
+              "text": "Josef Groll"
+            },
+            {
+              "id": "C",
+              "text": "Arthur Guinness"
+            }
+          ]
+        },
+        "en": {
+          "question": "Which brewer is credited with the first Pilsner Urquell brew?",
+          "expectedAnswer": "Josef Groll",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Louis Pasteur"
+            },
+            {
+              "id": "B",
+              "text": "Josef Groll"
+            },
+            {
+              "id": "C",
+              "text": "Arthur Guinness"
+            }
+          ]
+        }
+      },
+      "sources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/3/3b-czech-premium-pale-lager"
+      ],
+      "provenance": {
+        "status": "original_bilingual_source_checked",
+        "checkedOn": "2026-10-13"
+      }
+    },
+    {
+      "id": 12,
+      "categoryId": 1,
+      "regionId": null,
+      "difficulty": 3,
+      "type": "qcm",
+      "correctChoiceIds": [
+        "C"
+      ],
+      "translations": {
+        "fr": {
+          "question": "Quelle innovation de 1817 a influencé l’évolution du porter ?",
+          "expectedAnswer": "Le malt noir",
+          "choices": [
+            {
+              "id": "A",
+              "text": "La canette en aluminium"
+            },
+            {
+              "id": "B",
+              "text": "Le houblon Cascade"
+            },
+            {
+              "id": "C",
+              "text": "Le malt noir"
+            }
+          ]
+        },
+        "en": {
+          "question": "Which 1817 innovation influenced the evolution of porter?",
+          "expectedAnswer": "Black malt",
+          "choices": [
+            {
+              "id": "A",
+              "text": "The aluminium can"
+            },
+            {
+              "id": "B",
+              "text": "Cascade hops"
+            },
+            {
+              "id": "C",
+              "text": "Black malt"
+            }
+          ]
+        }
+      },
+      "sources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/13/13c-english-porter"
+      ],
+      "provenance": {
+        "status": "original_bilingual_source_checked",
+        "checkedOn": "2026-10-13"
+      }
+    },
+    {
+      "id": 13,
+      "categoryId": 1,
+      "regionId": null,
+      "difficulty": 3,
+      "type": "qcm",
+      "correctChoiceIds": [
+        "A"
+      ],
+      "translations": {
+        "fr": {
+          "question": "Quelle maison commence à produire sa weissbier ambrée en 1872 ?",
+          "expectedAnswer": "Schneider",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Schneider"
+            },
+            {
+              "id": "B",
+              "text": "Anchor"
+            },
+            {
+              "id": "C",
+              "text": "Dupont"
+            }
+          ]
+        },
+        "en": {
+          "question": "Which producer began making its amber weissbier in 1872?",
+          "expectedAnswer": "Schneider",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Schneider"
+            },
+            {
+              "id": "B",
+              "text": "Anchor"
+            },
+            {
+              "id": "C",
+              "text": "Dupont"
+            }
+          ]
+        }
+      },
+      "sources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/10/10a-weissbier"
+      ],
+      "provenance": {
+        "status": "original_bilingual_source_checked",
+        "checkedOn": "2026-10-13"
+      }
+    },
+    {
+      "id": 14,
+      "categoryId": 1,
+      "regionId": null,
+      "difficulty": 3,
+      "type": "true_false",
+      "correctChoiceIds": [
+        "true"
+      ],
+      "translations": {
+        "fr": {
+          "question": "Les styles écossais modernes en shillings ont pris forme surtout après la Seconde Guerre mondiale.",
+          "expectedAnswer": "Vrai. Les styles écossais modernes en shillings ont pris forme surtout après la Seconde Guerre mondiale.",
+          "choices": []
+        },
+        "en": {
+          "question": "Modern Scottish shilling styles took shape mainly after World War II.",
+          "expectedAnswer": "True. Modern Scottish shilling styles took shape mainly after World War II.",
+          "choices": []
+        }
+      },
+      "sources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/14/14a-scottish-light"
+      ],
+      "provenance": {
+        "status": "original_bilingual_source_checked",
+        "checkedOn": "2026-10-13"
+      }
+    },
+    {
+      "id": 15,
+      "categoryId": 1,
+      "regionId": null,
+      "difficulty": 3,
+      "type": "qcm",
+      "correctChoiceIds": [
+        "C"
+      ],
+      "translations": {
+        "fr": {
+          "question": "Quel brasseur a produit une version moderne de light lager en 1967 selon le BJCP ?",
+          "expectedAnswer": "Rheingold",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Cantillon"
+            },
+            {
+              "id": "B",
+              "text": "Schneider"
+            },
+            {
+              "id": "C",
+              "text": "Rheingold"
+            }
+          ]
+        },
+        "en": {
+          "question": "Which brewer produced a modern light lager in 1967 according to the BJCP?",
+          "expectedAnswer": "Rheingold",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Cantillon"
+            },
+            {
+              "id": "B",
+              "text": "Schneider"
+            },
+            {
+              "id": "C",
+              "text": "Rheingold"
+            }
+          ]
+        }
+      },
+      "sources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/1/1a-american-light-lager"
+      ],
+      "provenance": {
+        "status": "original_bilingual_source_checked",
+        "checkedOn": "2026-10-13"
+      }
+    },
+    {
+      "id": 16,
+      "categoryId": 2,
+      "regionId": null,
+      "difficulty": 1,
+      "type": "qcm",
+      "correctChoiceIds": [
+        "A"
+      ],
+      "translations": {
+        "fr": {
+          "question": "À quel pays associe-t-on la witbier ?",
+          "expectedAnswer": "La Belgique",
+          "choices": [
+            {
+              "id": "A",
+              "text": "La Belgique"
+            },
+            {
+              "id": "B",
+              "text": "Le Pérou"
+            },
+            {
+              "id": "C",
+              "text": "La Finlande"
+            }
+          ]
+        },
+        "en": {
+          "question": "Which country is associated with witbier?",
+          "expectedAnswer": "Belgium",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Belgium"
+            },
+            {
+              "id": "B",
+              "text": "Peru"
+            },
+            {
+              "id": "C",
+              "text": "Finland"
+            }
+          ]
+        }
+      },
+      "sources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/24/24a-witbier"
+      ],
+      "provenance": {
+        "status": "original_bilingual_source_checked",
+        "checkedOn": "2026-10-13"
+      }
+    },
+    {
+      "id": 17,
+      "categoryId": 2,
+      "regionId": null,
+      "difficulty": 1,
+      "type": "qcm",
+      "correctChoiceIds": [
+        "B"
+      ],
+      "translations": {
+        "fr": {
+          "question": "La weissbier est une tradition de quel pays ?",
+          "expectedAnswer": "L’Allemagne",
+          "choices": [
+            {
+              "id": "A",
+              "text": "L’Argentine"
+            },
+            {
+              "id": "B",
+              "text": "L’Allemagne"
+            },
+            {
+              "id": "C",
+              "text": "L’Irlande"
+            }
+          ]
+        },
+        "en": {
+          "question": "Weissbier is a tradition from which country?",
+          "expectedAnswer": "Germany",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Argentina"
+            },
+            {
+              "id": "B",
+              "text": "Germany"
+            },
+            {
+              "id": "C",
+              "text": "Ireland"
+            }
+          ]
+        }
+      },
+      "sources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/10/10a-weissbier"
+      ],
+      "provenance": {
+        "status": "original_bilingual_source_checked",
+        "checkedOn": "2026-10-13"
+      }
+    },
+    {
+      "id": 18,
+      "categoryId": 2,
+      "regionId": null,
+      "difficulty": 1,
+      "type": "qcm",
+      "correctChoiceIds": [
+        "C"
+      ],
+      "translations": {
+        "fr": {
+          "question": "Quel pays donne son nom à l’Irish stout ?",
+          "expectedAnswer": "L’Irlande",
+          "choices": [
+            {
+              "id": "A",
+              "text": "L’Islande"
+            },
+            {
+              "id": "B",
+              "text": "L’Italie"
+            },
+            {
+              "id": "C",
+              "text": "L’Irlande"
+            }
+          ]
+        },
+        "en": {
+          "question": "Which country gives Irish stout its name?",
+          "expectedAnswer": "Ireland",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Iceland"
+            },
+            {
+              "id": "B",
+              "text": "Italy"
+            },
+            {
+              "id": "C",
+              "text": "Ireland"
+            }
+          ]
+        }
+      },
+      "sources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/15/15b-irish-stout"
+      ],
+      "provenance": {
+        "status": "original_bilingual_source_checked",
+        "checkedOn": "2026-10-13"
+      }
+    },
+    {
+      "id": 19,
+      "categoryId": 2,
+      "regionId": null,
+      "difficulty": 1,
+      "type": "qcm",
+      "correctChoiceIds": [
+        "A"
+      ],
+      "translations": {
+        "fr": {
+          "question": "Le piwo grodziskie est originaire de quel pays ?",
+          "expectedAnswer": "La Pologne",
+          "choices": [
+            {
+              "id": "A",
+              "text": "La Pologne"
+            },
+            {
+              "id": "B",
+              "text": "La Grèce"
+            },
+            {
+              "id": "C",
+              "text": "Le Japon"
+            }
+          ]
+        },
+        "en": {
+          "question": "Which country is piwo grodziskie from?",
+          "expectedAnswer": "Poland",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Poland"
+            },
+            {
+              "id": "B",
+              "text": "Greece"
+            },
+            {
+              "id": "C",
+              "text": "Japan"
+            }
+          ]
+        }
+      },
+      "sources": [
+        "https://www.bjcp.org/style/2015/27/27A/historical-beer-piwo-grodziskie/"
+      ],
+      "provenance": {
+        "status": "original_bilingual_source_checked",
+        "checkedOn": "2026-10-13"
+      }
+    },
+    {
+      "id": 20,
+      "categoryId": 2,
+      "regionId": null,
+      "difficulty": 1,
+      "type": "qcm",
+      "correctChoiceIds": [
+        "B"
+      ],
+      "translations": {
+        "fr": {
+          "question": "De quel pays vient le sahti ?",
+          "expectedAnswer": "La Finlande",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Le Brésil"
+            },
+            {
+              "id": "B",
+              "text": "La Finlande"
+            },
+            {
+              "id": "C",
+              "text": "L’Espagne"
+            }
+          ]
+        },
+        "en": {
+          "question": "Which country is sahti from?",
+          "expectedAnswer": "Finland",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Brazil"
+            },
+            {
+              "id": "B",
+              "text": "Finland"
+            },
+            {
+              "id": "C",
+              "text": "Spain"
+            }
+          ]
+        }
+      },
+      "sources": [
+        "https://www.bjcp.org/style/2015/27/27A/historical-beer-sahti/"
+      ],
+      "provenance": {
+        "status": "original_bilingual_source_checked",
+        "checkedOn": "2026-10-13"
+      }
+    },
+    {
+      "id": 21,
+      "categoryId": 2,
+      "regionId": null,
+      "difficulty": 2,
+      "type": "qcm",
+      "correctChoiceIds": [
+        "C"
+      ],
+      "translations": {
+        "fr": {
+          "question": "Quelle région belge est le berceau de la saison ?",
+          "expectedAnswer": "La Wallonie",
+          "choices": [
+            {
+              "id": "A",
+              "text": "La Bavière"
+            },
+            {
+              "id": "B",
+              "text": "La Toscane"
+            },
+            {
+              "id": "C",
+              "text": "La Wallonie"
+            }
+          ]
+        },
+        "en": {
+          "question": "Which Belgian region is the home of saison?",
+          "expectedAnswer": "Wallonia",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Bavaria"
+            },
+            {
+              "id": "B",
+              "text": "Tuscany"
+            },
+            {
+              "id": "C",
+              "text": "Wallonia"
+            }
+          ]
+        }
+      },
+      "sources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/25/25b-saison"
+      ],
+      "provenance": {
+        "status": "original_bilingual_source_checked",
+        "checkedOn": "2026-10-13"
+      }
+    },
+    {
+      "id": 22,
+      "categoryId": 2,
+      "regionId": null,
+      "difficulty": 2,
+      "type": "qcm",
+      "correctChoiceIds": [
+        "A"
+      ],
+      "translations": {
+        "fr": {
+          "question": "À quelle ville allemande la Kölsch est-elle liée ?",
+          "expectedAnswer": "Cologne",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Cologne"
+            },
+            {
+              "id": "B",
+              "text": "Berlin"
+            },
+            {
+              "id": "C",
+              "text": "Hambourg"
+            }
+          ]
+        },
+        "en": {
+          "question": "Which German city is linked to Kölsch?",
+          "expectedAnswer": "Cologne",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Cologne"
+            },
+            {
+              "id": "B",
+              "text": "Berlin"
+            },
+            {
+              "id": "C",
+              "text": "Hamburg"
+            }
+          ]
+        }
+      },
+      "sources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/5/5b-kolsch"
+      ],
+      "provenance": {
+        "status": "original_bilingual_source_checked",
+        "checkedOn": "2026-10-13"
+      }
+    },
+    {
+      "id": 23,
+      "categoryId": 2,
+      "regionId": null,
+      "difficulty": 2,
+      "type": "qcm",
+      "correctChoiceIds": [
+        "B"
+      ],
+      "translations": {
+        "fr": {
+          "question": "Le lambic traditionnel est lié aux environs de quelle ville ?",
+          "expectedAnswer": "Bruxelles",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Madrid"
+            },
+            {
+              "id": "B",
+              "text": "Bruxelles"
+            },
+            {
+              "id": "C",
+              "text": "Oslo"
+            }
+          ]
+        },
+        "en": {
+          "question": "Traditional lambic is linked to the area around which city?",
+          "expectedAnswer": "Brussels",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Madrid"
+            },
+            {
+              "id": "B",
+              "text": "Brussels"
+            },
+            {
+              "id": "C",
+              "text": "Oslo"
+            }
+          ]
+        }
+      },
+      "sources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/23/23d-lambic"
+      ],
+      "provenance": {
+        "status": "original_bilingual_source_checked",
+        "checkedOn": "2026-10-13"
+      }
+    },
+    {
+      "id": 24,
+      "categoryId": 2,
+      "regionId": null,
+      "difficulty": 2,
+      "type": "qcm",
+      "correctChoiceIds": [
+        "C"
+      ],
+      "translations": {
+        "fr": {
+          "question": "Quelle ville française se trouve dans la région d’origine de la bière de garde ?",
+          "expectedAnswer": "Lille",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Nice"
+            },
+            {
+              "id": "B",
+              "text": "Marseille"
+            },
+            {
+              "id": "C",
+              "text": "Lille"
+            }
+          ]
+        },
+        "en": {
+          "question": "Which French city lies in the original region of bière de garde?",
+          "expectedAnswer": "Lille",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Nice"
+            },
+            {
+              "id": "B",
+              "text": "Marseille"
+            },
+            {
+              "id": "C",
+              "text": "Lille"
+            }
+          ]
+        }
+      },
+      "sources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/24/24c-biere-de-garde"
+      ],
+      "provenance": {
+        "status": "original_bilingual_source_checked",
+        "checkedOn": "2026-10-13"
+      }
+    },
+    {
+      "id": 25,
+      "categoryId": 2,
+      "regionId": null,
+      "difficulty": 2,
+      "type": "true_false",
+      "correctChoiceIds": [
+        "true"
+      ],
+      "translations": {
+        "fr": {
+          "question": "La ville de Plzeň se situe en Tchéquie.",
+          "expectedAnswer": "Vrai. La ville de Plzeň se situe en Tchéquie.",
+          "choices": []
+        },
+        "en": {
+          "question": "The city of Plzeň is in Czechia.",
+          "expectedAnswer": "True. The city of Plzeň is in Czechia.",
+          "choices": []
+        }
+      },
+      "sources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/3/3b-czech-premium-pale-lager"
+      ],
+      "provenance": {
+        "status": "original_bilingual_source_checked",
+        "checkedOn": "2026-10-13"
+      }
+    },
+    {
+      "id": 26,
+      "categoryId": 2,
+      "regionId": null,
+      "difficulty": 3,
+      "type": "qcm",
+      "correctChoiceIds": [
+        "B"
+      ],
+      "translations": {
+        "fr": {
+          "question": "Quel nom allemand désigne aussi le grodziskie ?",
+          "expectedAnswer": "Grätzer",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Doppelbock"
+            },
+            {
+              "id": "B",
+              "text": "Grätzer"
+            },
+            {
+              "id": "C",
+              "text": "Kölsch"
+            }
+          ]
+        },
+        "en": {
+          "question": "Which German name also refers to grodziskie?",
+          "expectedAnswer": "Grätzer",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Doppelbock"
+            },
+            {
+              "id": "B",
+              "text": "Grätzer"
+            },
+            {
+              "id": "C",
+              "text": "Kölsch"
+            }
+          ]
+        }
+      },
+      "sources": [
+        "https://www.bjcp.org/style/2015/27/27A/historical-beer-piwo-grodziskie/"
+      ],
+      "provenance": {
+        "status": "original_bilingual_source_checked",
+        "checkedOn": "2026-10-13"
+      }
+    },
+    {
+      "id": 27,
+      "categoryId": 2,
+      "regionId": null,
+      "difficulty": 3,
+      "type": "qcm",
+      "correctChoiceIds": [
+        "C"
+      ],
+      "translations": {
+        "fr": {
+          "question": "Quel pays voisin possède une tradition similaire au sahti, appelée koduolu ?",
+          "expectedAnswer": "L’Estonie",
+          "choices": [
+            {
+              "id": "A",
+              "text": "La Suisse"
+            },
+            {
+              "id": "B",
+              "text": "La Belgique"
+            },
+            {
+              "id": "C",
+              "text": "L’Estonie"
+            }
+          ]
+        },
+        "en": {
+          "question": "Which neighbouring country has a sahti-like tradition called koduolu?",
+          "expectedAnswer": "Estonia",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Switzerland"
+            },
+            {
+              "id": "B",
+              "text": "Belgium"
+            },
+            {
+              "id": "C",
+              "text": "Estonia"
+            }
+          ]
+        }
+      },
+      "sources": [
+        "https://www.bjcp.org/style/2015/27/27A/historical-beer-sahti/"
+      ],
+      "provenance": {
+        "status": "original_bilingual_source_checked",
+        "checkedOn": "2026-10-13"
+      }
+    },
+    {
+      "id": 28,
+      "categoryId": 2,
+      "regionId": null,
+      "difficulty": 3,
+      "type": "qcm",
+      "correctChoiceIds": [
+        "A"
+      ],
+      "translations": {
+        "fr": {
+          "question": "Quel festival munichois est associé à la Festbier moderne ?",
+          "expectedAnswer": "L’Oktoberfest",
+          "choices": [
+            {
+              "id": "A",
+              "text": "L’Oktoberfest"
+            },
+            {
+              "id": "B",
+              "text": "La Saint-Patrick"
+            },
+            {
+              "id": "C",
+              "text": "Le carnaval de Venise"
+            }
+          ]
+        },
+        "en": {
+          "question": "Which Munich festival is associated with modern Festbier?",
+          "expectedAnswer": "Oktoberfest",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Oktoberfest"
+            },
+            {
+              "id": "B",
+              "text": "St Patrick’s Day"
+            },
+            {
+              "id": "C",
+              "text": "Venice Carnival"
+            }
+          ]
+        }
+      },
+      "sources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/4/4b-festbier"
+      ],
+      "provenance": {
+        "status": "original_bilingual_source_checked",
+        "checkedOn": "2026-10-13"
+      }
+    },
+    {
+      "id": 29,
+      "categoryId": 2,
+      "regionId": null,
+      "difficulty": 3,
+      "type": "true_false",
+      "correctChoiceIds": [
+        "true"
+      ],
+      "translations": {
+        "fr": {
+          "question": "L’Ordinary Bitter appartient aux traditions brassicoles britanniques.",
+          "expectedAnswer": "Vrai. L’Ordinary Bitter appartient aux traditions brassicoles britanniques.",
+          "choices": []
+        },
+        "en": {
+          "question": "Ordinary Bitter belongs to British brewing traditions.",
+          "expectedAnswer": "True. Ordinary Bitter belongs to British brewing traditions.",
+          "choices": []
+        }
+      },
+      "sources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/11/11a-ordinary-bitter"
+      ],
+      "provenance": {
+        "status": "original_bilingual_source_checked",
+        "checkedOn": "2026-10-13"
+      }
+    },
+    {
+      "id": 30,
+      "categoryId": 2,
+      "regionId": null,
+      "difficulty": 3,
+      "type": "open",
+      "correctChoiceIds": [],
+      "translations": {
+        "fr": {
+          "question": "Cite le pays d’origine des Scottish ales et leur orientation gustative dominante.",
+          "expectedAnswer": "L’Écosse ; le malt, plutôt que le houblon.",
+          "choices": []
+        },
+        "en": {
+          "question": "Name the home of Scottish ales and their main flavour emphasis.",
+          "expectedAnswer": "Scotland; malt rather than hops.",
+          "choices": []
+        }
+      },
+      "sources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/14/14a-scottish-light"
+      ],
+      "provenance": {
+        "status": "original_bilingual_source_checked",
+        "checkedOn": "2026-10-13"
+      }
+    },
+    {
+      "id": 31,
+      "categoryId": 3,
+      "regionId": null,
+      "difficulty": 1,
+      "type": "qcm",
+      "correctChoiceIds": [
+        "A"
+      ],
+      "translations": {
+        "fr": {
+          "question": "Quel arôme évoque souvent un Irish stout ?",
+          "expectedAnswer": "Le café torréfié",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Le café torréfié"
+            },
+            {
+              "id": "B",
+              "text": "Le concombre"
+            },
+            {
+              "id": "C",
+              "text": "La pêche au sirop"
+            }
+          ]
+        },
+        "en": {
+          "question": "Which aroma is often associated with Irish stout?",
+          "expectedAnswer": "Roasted coffee",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Roasted coffee"
+            },
+            {
+              "id": "B",
+              "text": "Cucumber"
+            },
+            {
+              "id": "C",
+              "text": "Peach syrup"
+            }
+          ]
+        }
+      },
+      "sources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/15/15b-irish-stout"
+      ],
+      "provenance": {
+        "status": "original_bilingual_source_checked",
+        "checkedOn": "2026-10-13"
+      }
+    },
+    {
+      "id": 32,
+      "categoryId": 3,
+      "regionId": null,
+      "difficulty": 1,
+      "type": "qcm",
+      "correctChoiceIds": [
+        "B"
+      ],
+      "translations": {
+        "fr": {
+          "question": "Quel duo aromatique est classique dans une weissbier ?",
+          "expectedAnswer": "Banane et clou de girofle",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Menthe et chocolat"
+            },
+            {
+              "id": "B",
+              "text": "Banane et clou de girofle"
+            },
+            {
+              "id": "C",
+              "text": "Pomme et cannelle"
+            }
+          ]
+        },
+        "en": {
+          "question": "Which aroma pair is classic in weissbier?",
+          "expectedAnswer": "Banana and clove",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Mint and chocolate"
+            },
+            {
+              "id": "B",
+              "text": "Banana and clove"
+            },
+            {
+              "id": "C",
+              "text": "Apple and cinnamon"
+            }
+          ]
+        }
+      },
+      "sources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/10/10a-weissbier"
+      ],
+      "provenance": {
+        "status": "original_bilingual_source_checked",
+        "checkedOn": "2026-10-13"
+      }
+    },
+    {
+      "id": 33,
+      "categoryId": 3,
+      "regionId": null,
+      "difficulty": 1,
+      "type": "qcm",
+      "correctChoiceIds": [
+        "C"
+      ],
+      "translations": {
+        "fr": {
+          "question": "Quel ingrédient est au premier plan dans une American IPA ?",
+          "expectedAnswer": "Le houblon",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Le café"
+            },
+            {
+              "id": "B",
+              "text": "Le lait"
+            },
+            {
+              "id": "C",
+              "text": "Le houblon"
+            }
+          ]
+        },
+        "en": {
+          "question": "Which ingredient takes centre stage in American IPA?",
+          "expectedAnswer": "Hops",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Coffee"
+            },
+            {
+              "id": "B",
+              "text": "Milk"
+            },
+            {
+              "id": "C",
+              "text": "Hops"
+            }
+          ]
+        }
+      },
+      "sources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/21/21a-american-ipa"
+      ],
+      "provenance": {
+        "status": "original_bilingual_source_checked",
+        "checkedOn": "2026-10-13"
+      }
+    },
+    {
+      "id": 34,
+      "categoryId": 3,
+      "regionId": null,
+      "difficulty": 1,
+      "type": "true_false",
+      "correctChoiceIds": [
+        "true"
+      ],
+      "translations": {
+        "fr": {
+          "question": "Une witbier est généralement pâle et trouble.",
+          "expectedAnswer": "Vrai. Une witbier est généralement pâle et trouble.",
+          "choices": []
+        },
+        "en": {
+          "question": "Witbier is generally pale and hazy.",
+          "expectedAnswer": "True. Witbier is generally pale and hazy.",
+          "choices": []
+        }
+      },
+      "sources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/24/24a-witbier"
+      ],
+      "provenance": {
+        "status": "original_bilingual_source_checked",
+        "checkedOn": "2026-10-13"
+      }
+    },
+    {
+      "id": 35,
+      "categoryId": 3,
+      "regionId": null,
+      "difficulty": 1,
+      "type": "qcm",
+      "correctChoiceIds": [
+        "B"
+      ],
+      "translations": {
+        "fr": {
+          "question": "Quelle couleur correspond habituellement à un English porter ?",
+          "expectedAnswer": "Brun à brun foncé",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Rose vif"
+            },
+            {
+              "id": "B",
+              "text": "Brun à brun foncé"
+            },
+            {
+              "id": "C",
+              "text": "Jaune très pâle"
+            }
+          ]
+        },
+        "en": {
+          "question": "What colour is typical of English porter?",
+          "expectedAnswer": "Brown to dark brown",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Bright pink"
+            },
+            {
+              "id": "B",
+              "text": "Brown to dark brown"
+            },
+            {
+              "id": "C",
+              "text": "Very pale yellow"
+            }
+          ]
+        }
+      },
+      "sources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/13/13c-english-porter"
+      ],
+      "provenance": {
+        "status": "original_bilingual_source_checked",
+        "checkedOn": "2026-10-13"
+      }
+    },
+    {
+      "id": 36,
+      "categoryId": 3,
+      "regionId": null,
+      "difficulty": 2,
+      "type": "qcm",
+      "correctChoiceIds": [
+        "C"
+      ],
+      "translations": {
+        "fr": {
+          "question": "Par rapport au lambic traditionnel non pétillant, la gueuze est généralement…",
+          "expectedAnswer": "Très pétillante",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Sans bulles"
+            },
+            {
+              "id": "B",
+              "text": "Crémeuse comme du lait"
+            },
+            {
+              "id": "C",
+              "text": "Très pétillante"
+            }
+          ]
+        },
+        "en": {
+          "question": "Compared with traditional still lambic, gueuze is generally…",
+          "expectedAnswer": "Highly carbonated",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Still"
+            },
+            {
+              "id": "B",
+              "text": "Creamy like milk"
+            },
+            {
+              "id": "C",
+              "text": "Highly carbonated"
+            }
+          ]
+        }
+      },
+      "sources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/23/23e-gueuze"
+      ],
+      "provenance": {
+        "status": "original_bilingual_source_checked",
+        "checkedOn": "2026-10-13"
+      }
+    },
+    {
+      "id": 37,
+      "categoryId": 3,
+      "regionId": null,
+      "difficulty": 2,
+      "type": "qcm",
+      "correctChoiceIds": [
+        "A"
+      ],
+      "translations": {
+        "fr": {
+          "question": "Comment décrit-on la finale d’une saison classique ?",
+          "expectedAnswer": "Très sèche",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Très sèche"
+            },
+            {
+              "id": "B",
+              "text": "Sirupeuse"
+            },
+            {
+              "id": "C",
+              "text": "Salée"
+            }
+          ]
+        },
+        "en": {
+          "question": "How is the finish of a classic saison described?",
+          "expectedAnswer": "Very dry",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Very dry"
+            },
+            {
+              "id": "B",
+              "text": "Syrupy"
+            },
+            {
+              "id": "C",
+              "text": "Salty"
+            }
+          ]
+        }
+      },
+      "sources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/25/25b-saison"
+      ],
+      "provenance": {
+        "status": "original_bilingual_source_checked",
+        "checkedOn": "2026-10-13"
+      }
+    },
+    {
+      "id": 38,
+      "categoryId": 3,
+      "regionId": null,
+      "difficulty": 2,
+      "type": "true_false",
+      "correctChoiceIds": [
+        "false"
+      ],
+      "translations": {
+        "fr": {
+          "question": "Un goût de fumée de tourbe est caractéristique de la Scottish Light traditionnelle.",
+          "expectedAnswer": "Faux. La Scottish Light est maltée ; la fumée de tourbe ne fait pas partie du profil traditionnel.",
+          "choices": []
+        },
+        "en": {
+          "question": "Peat smoke is characteristic of traditional Scottish Light.",
+          "expectedAnswer": "False. Scottish Light is malt-led; peat smoke is outside its traditional profile.",
+          "choices": []
+        }
+      },
+      "sources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/14/14a-scottish-light"
+      ],
+      "provenance": {
+        "status": "original_bilingual_source_checked",
+        "checkedOn": "2026-10-13"
+      }
+    },
+    {
+      "id": 39,
+      "categoryId": 3,
+      "regionId": null,
+      "difficulty": 2,
+      "type": "qcm",
+      "correctChoiceIds": [
+        "C"
+      ],
+      "translations": {
+        "fr": {
+          "question": "Quel équilibre domine une bière de garde ?",
+          "expectedAnswer": "Le malt",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Une acidité vinaigrée"
+            },
+            {
+              "id": "B",
+              "text": "Une amertume extrême"
+            },
+            {
+              "id": "C",
+              "text": "Le malt"
+            }
+          ]
+        },
+        "en": {
+          "question": "Which balance dominates bière de garde?",
+          "expectedAnswer": "Malt",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Vinegary acidity"
+            },
+            {
+              "id": "B",
+              "text": "Extreme bitterness"
+            },
+            {
+              "id": "C",
+              "text": "Malt"
+            }
+          ]
+        }
+      },
+      "sources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/24/24c-biere-de-garde"
+      ],
+      "provenance": {
+        "status": "original_bilingual_source_checked",
+        "checkedOn": "2026-10-13"
+      }
+    },
+    {
+      "id": 40,
+      "categoryId": 3,
+      "regionId": null,
+      "difficulty": 2,
+      "type": "qcm",
+      "correctChoiceIds": [
+        "A"
+      ],
+      "translations": {
+        "fr": {
+          "question": "Quel corps est typique d’une American Light Lager ?",
+          "expectedAnswer": "Très léger",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Très léger"
+            },
+            {
+              "id": "B",
+              "text": "Très épais"
+            },
+            {
+              "id": "C",
+              "text": "Visqueux"
+            }
+          ]
+        },
+        "en": {
+          "question": "What body is typical of American Light Lager?",
+          "expectedAnswer": "Very light",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Very light"
+            },
+            {
+              "id": "B",
+              "text": "Very thick"
+            },
+            {
+              "id": "C",
+              "text": "Viscous"
+            }
+          ]
+        }
+      },
+      "sources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/1/1a-american-light-lager"
+      ],
+      "provenance": {
+        "status": "original_bilingual_source_checked",
+        "checkedOn": "2026-10-13"
+      }
+    },
+    {
+      "id": 41,
+      "categoryId": 3,
+      "regionId": null,
+      "difficulty": 3,
+      "type": "qcm",
+      "correctChoiceIds": [
+        "B"
+      ],
+      "translations": {
+        "fr": {
+          "question": "Que désigne une version « Kristall » de weissbier ?",
+          "expectedAnswer": "Une version filtrée et limpide",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Une version glacée"
+            },
+            {
+              "id": "B",
+              "text": "Une version filtrée et limpide"
+            },
+            {
+              "id": "C",
+              "text": "Une version au sel"
+            }
+          ]
+        },
+        "en": {
+          "question": "What does a “Kristall” weissbier version mean?",
+          "expectedAnswer": "A filtered, clear version",
+          "choices": [
+            {
+              "id": "A",
+              "text": "A frozen version"
+            },
+            {
+              "id": "B",
+              "text": "A filtered, clear version"
+            },
+            {
+              "id": "C",
+              "text": "A salted version"
+            }
+          ]
+        }
+      },
+      "sources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/10/10a-weissbier"
+      ],
+      "provenance": {
+        "status": "original_bilingual_source_checked",
+        "checkedOn": "2026-10-13"
+      }
+    },
+    {
+      "id": 42,
+      "categoryId": 3,
+      "regionId": null,
+      "difficulty": 3,
+      "type": "qcm",
+      "correctChoiceIds": [
+        "C"
+      ],
+      "translations": {
+        "fr": {
+          "question": "Quelle mention indique une gueuze de tradition ancienne ?",
+          "expectedAnswer": "Oude ou vieille",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Imperial only"
+            },
+            {
+              "id": "B",
+              "text": "Milk only"
+            },
+            {
+              "id": "C",
+              "text": "Oude ou vieille"
+            }
+          ]
+        },
+        "en": {
+          "question": "Which wording indicates a traditional gueuze?",
+          "expectedAnswer": "Oude or vieille",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Imperial only"
+            },
+            {
+              "id": "B",
+              "text": "Milk only"
+            },
+            {
+              "id": "C",
+              "text": "Oude or vieille"
+            }
+          ]
+        }
+      },
+      "sources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/23/23e-gueuze"
+      ],
+      "provenance": {
+        "status": "original_bilingual_source_checked",
+        "checkedOn": "2026-10-13"
+      }
+    },
+    {
+      "id": 43,
+      "categoryId": 3,
+      "regionId": null,
+      "difficulty": 3,
+      "type": "true_false",
+      "correctChoiceIds": [
+        "false"
+      ],
+      "translations": {
+        "fr": {
+          "question": "Le grodziskie traditionnel doit présenter une acidité prononcée.",
+          "expectedAnswer": "Faux. Le grodziskie traditionnel est fumé, sec et non acide.",
+          "choices": []
+        },
+        "en": {
+          "question": "Traditional grodziskie should have pronounced sourness.",
+          "expectedAnswer": "False. Traditional grodziskie is smoky, dry and not sour.",
+          "choices": []
+        }
+      },
+      "sources": [
+        "https://www.bjcp.org/style/2015/27/27A/historical-beer-piwo-grodziskie/"
+      ],
+      "provenance": {
+        "status": "original_bilingual_source_checked",
+        "checkedOn": "2026-10-13"
+      }
+    },
+    {
+      "id": 44,
+      "categoryId": 3,
+      "regionId": null,
+      "difficulty": 3,
+      "type": "open",
+      "correctChoiceIds": [],
+      "translations": {
+        "fr": {
+          "question": "Pourquoi un stout servi à l’azote peut-il paraître plus crémeux que sa version en bouteille ?",
+          "expectedAnswer": "Le service avec un mélange gazeux à l’azote donne une mousse serrée et une texture crémeuse.",
+          "choices": []
+        },
+        "en": {
+          "question": "Why can a nitrogen-served stout seem creamier than its bottled version?",
+          "expectedAnswer": "Nitrogen mixed-gas dispense creates a tight head and creamy texture.",
+          "choices": []
+        }
+      },
+      "sources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/15/15b-irish-stout"
+      ],
+      "provenance": {
+        "status": "original_bilingual_source_checked",
+        "checkedOn": "2026-10-13"
+      }
+    },
+    {
+      "id": 45,
+      "categoryId": 3,
+      "regionId": null,
+      "difficulty": 3,
+      "type": "qcm",
+      "correctChoiceIds": [
+        "C"
+      ],
+      "translations": {
+        "fr": {
+          "question": "Comparée à une German Pils, une Czech Premium Pale Lager est généralement…",
+          "expectedAnswer": "Plus riche en malt et en corps",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Dénuée de malt"
+            },
+            {
+              "id": "B",
+              "text": "Toujours noire"
+            },
+            {
+              "id": "C",
+              "text": "Plus riche en malt et en corps"
+            }
+          ]
+        },
+        "en": {
+          "question": "Compared with German Pils, Czech Premium Pale Lager is generally…",
+          "expectedAnswer": "Richer in malt and body",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Devoid of malt"
+            },
+            {
+              "id": "B",
+              "text": "Always black"
+            },
+            {
+              "id": "C",
+              "text": "Richer in malt and body"
+            }
+          ]
+        }
+      },
+      "sources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/3/3b-czech-premium-pale-lager"
+      ],
+      "provenance": {
+        "status": "original_bilingual_source_checked",
+        "checkedOn": "2026-10-13"
+      }
+    },
+    {
+      "id": 46,
+      "categoryId": 4,
+      "regionId": null,
+      "difficulty": 1,
+      "type": "qcm",
+      "correctChoiceIds": [
+        "A"
+      ],
+      "translations": {
+        "fr": {
+          "question": "Quelle céréale maltée est un ingrédient classique de la bière ?",
+          "expectedAnswer": "L’orge",
+          "choices": [
+            {
+              "id": "A",
+              "text": "L’orge"
+            },
+            {
+              "id": "B",
+              "text": "Le quinoa uniquement"
+            },
+            {
+              "id": "C",
+              "text": "Le riz uniquement"
+            }
+          ]
+        },
+        "en": {
+          "question": "Which malted cereal is a classic beer ingredient?",
+          "expectedAnswer": "Barley",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Barley"
+            },
+            {
+              "id": "B",
+              "text": "Only quinoa"
+            },
+            {
+              "id": "C",
+              "text": "Only rice"
+            }
+          ]
+        }
+      },
+      "sources": [
+        "https://www.brewersassociation.org/online-courses/beer-ingredients/"
+      ],
+      "provenance": {
+        "status": "original_bilingual_source_checked",
+        "checkedOn": "2026-10-13"
+      }
+    },
+    {
+      "id": 47,
+      "categoryId": 4,
+      "regionId": null,
+      "difficulty": 1,
+      "type": "qcm",
+      "correctChoiceIds": [
+        "B"
+      ],
+      "translations": {
+        "fr": {
+          "question": "Quel ingrédient transforme les sucres en alcool et en gaz carbonique ?",
+          "expectedAnswer": "La levure",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Le houblon"
+            },
+            {
+              "id": "B",
+              "text": "La levure"
+            },
+            {
+              "id": "C",
+              "text": "Le sel"
+            }
+          ]
+        },
+        "en": {
+          "question": "Which ingredient converts sugars into alcohol and carbon dioxide?",
+          "expectedAnswer": "Yeast",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Hops"
+            },
+            {
+              "id": "B",
+              "text": "Yeast"
+            },
+            {
+              "id": "C",
+              "text": "Salt"
+            }
+          ]
+        }
+      },
+      "sources": [
+        "https://www.homebrewersassociation.org/wp-content/uploads/Ingredient-Signs.pdf"
+      ],
+      "provenance": {
+        "status": "original_bilingual_source_checked",
+        "checkedOn": "2026-10-13"
+      }
+    },
+    {
+      "id": 48,
+      "categoryId": 4,
+      "regionId": null,
+      "difficulty": 1,
+      "type": "qcm",
+      "correctChoiceIds": [
+        "C"
+      ],
+      "translations": {
+        "fr": {
+          "question": "Quel ingrédient apporte notamment de l’amertume ?",
+          "expectedAnswer": "Le houblon",
+          "choices": [
+            {
+              "id": "A",
+              "text": "L’eau pure"
+            },
+            {
+              "id": "B",
+              "text": "La levure uniquement"
+            },
+            {
+              "id": "C",
+              "text": "Le houblon"
+            }
+          ]
+        },
+        "en": {
+          "question": "Which ingredient notably adds bitterness?",
+          "expectedAnswer": "Hops",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Pure water"
+            },
+            {
+              "id": "B",
+              "text": "Yeast alone"
+            },
+            {
+              "id": "C",
+              "text": "Hops"
+            }
+          ]
+        }
+      },
+      "sources": [
+        "https://www.homebrewersassociation.org/wp-content/uploads/Ingredient-Signs.pdf"
+      ],
+      "provenance": {
+        "status": "original_bilingual_source_checked",
+        "checkedOn": "2026-10-13"
+      }
+    },
+    {
+      "id": 49,
+      "categoryId": 4,
+      "regionId": null,
+      "difficulty": 1,
+      "type": "open",
+      "correctChoiceIds": [],
+      "translations": {
+        "fr": {
+          "question": "Nomme les quatre ingrédients classiques de la bière.",
+          "expectedAnswer": "Eau, malt d’orge, houblon et levure.",
+          "choices": []
+        },
+        "en": {
+          "question": "Name the four classic beer ingredients.",
+          "expectedAnswer": "Water, barley malt, hops and yeast.",
+          "choices": []
+        }
+      },
+      "sources": [
+        "https://www.brewersassociation.org/online-courses/beer-ingredients/"
+      ],
+      "provenance": {
+        "status": "original_bilingual_source_checked",
+        "checkedOn": "2026-10-13"
+      }
+    },
+    {
+      "id": 50,
+      "categoryId": 4,
+      "regionId": null,
+      "difficulty": 1,
+      "type": "true_false",
+      "correctChoiceIds": [
+        "true"
+      ],
+      "translations": {
+        "fr": {
+          "question": "Des fruits ou des épices peuvent entrer dans une recette de bière.",
+          "expectedAnswer": "Vrai. Des fruits ou des épices peuvent entrer dans une recette de bière.",
+          "choices": []
+        },
+        "en": {
+          "question": "Fruit or spices can be included in a beer recipe.",
+          "expectedAnswer": "True. Fruit or spices can be included in a beer recipe.",
+          "choices": []
+        }
+      },
+      "sources": [
+        "https://www.homebrewersassociation.org/wp-content/uploads/Ingredient-Signs.pdf"
+      ],
+      "provenance": {
+        "status": "original_bilingual_source_checked",
+        "checkedOn": "2026-10-13"
+      }
+    },
+    {
+      "id": 51,
+      "categoryId": 4,
+      "regionId": null,
+      "difficulty": 2,
+      "type": "qcm",
+      "correctChoiceIds": [
+        "C"
+      ],
+      "translations": {
+        "fr": {
+          "question": "Quel est le nom du liquide sucré obtenu lors du brassage, avant fermentation ?",
+          "expectedAnswer": "Le moût",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Le petit-lait"
+            },
+            {
+              "id": "B",
+              "text": "Le vinaigre"
+            },
+            {
+              "id": "C",
+              "text": "Le moût"
+            }
+          ]
+        },
+        "en": {
+          "question": "What is the sweet brewing liquid called before fermentation?",
+          "expectedAnswer": "Wort",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Whey"
+            },
+            {
+              "id": "B",
+              "text": "Vinegar"
+            },
+            {
+              "id": "C",
+              "text": "Wort"
+            }
+          ]
+        }
+      },
+      "sources": [
+        "https://www.homebrewersassociation.org/wp-content/uploads/Ingredient-Signs.pdf"
+      ],
+      "provenance": {
+        "status": "original_bilingual_source_checked",
+        "checkedOn": "2026-10-13"
+      }
+    },
+    {
+      "id": 52,
+      "categoryId": 4,
+      "regionId": null,
+      "difficulty": 2,
+      "type": "qcm",
+      "correctChoiceIds": [
+        "A"
+      ],
+      "translations": {
+        "fr": {
+          "question": "Lors de l’empâtage, on mélange le malt concassé avec…",
+          "expectedAnswer": "De l’eau chaude",
+          "choices": [
+            {
+              "id": "A",
+              "text": "De l’eau chaude"
+            },
+            {
+              "id": "B",
+              "text": "De l’huile"
+            },
+            {
+              "id": "C",
+              "text": "Du gaz carbonique"
+            }
+          ]
+        },
+        "en": {
+          "question": "During mashing, crushed malt is mixed with…",
+          "expectedAnswer": "Hot water",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Hot water"
+            },
+            {
+              "id": "B",
+              "text": "Oil"
+            },
+            {
+              "id": "C",
+              "text": "Carbon dioxide"
+            }
+          ]
+        }
+      },
+      "sources": [
+        "https://www.homebrewersassociation.org/wp-content/uploads/Ingredient-Signs.pdf"
+      ],
+      "provenance": {
+        "status": "original_bilingual_source_checked",
+        "checkedOn": "2026-10-13"
+      }
+    },
+    {
+      "id": 53,
+      "categoryId": 4,
+      "regionId": null,
+      "difficulty": 2,
+      "type": "qcm",
+      "correctChoiceIds": [
+        "B"
+      ],
+      "translations": {
+        "fr": {
+          "question": "Quelle épice est fréquemment utilisée dans la witbier ?",
+          "expectedAnswer": "La coriandre",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Le paprika fumé"
+            },
+            {
+              "id": "B",
+              "text": "La coriandre"
+            },
+            {
+              "id": "C",
+              "text": "Le safran uniquement"
+            }
+          ]
+        },
+        "en": {
+          "question": "Which spice is frequently used in witbier?",
+          "expectedAnswer": "Coriander",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Smoked paprika"
+            },
+            {
+              "id": "B",
+              "text": "Coriander"
+            },
+            {
+              "id": "C",
+              "text": "Only saffron"
+            }
+          ]
+        }
+      },
+      "sources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/24/24a-witbier"
+      ],
+      "provenance": {
+        "status": "original_bilingual_source_checked",
+        "checkedOn": "2026-10-13"
+      }
+    },
+    {
+      "id": 54,
+      "categoryId": 4,
+      "regionId": null,
+      "difficulty": 2,
+      "type": "qcm",
+      "correctChoiceIds": [
+        "C"
+      ],
+      "translations": {
+        "fr": {
+          "question": "Quel malt caractérise le grodziskie traditionnel ?",
+          "expectedAnswer": "Du blé fumé au chêne",
+          "choices": [
+            {
+              "id": "A",
+              "text": "De l’orge tourbée"
+            },
+            {
+              "id": "B",
+              "text": "Du riz grillé"
+            },
+            {
+              "id": "C",
+              "text": "Du blé fumé au chêne"
+            }
+          ]
+        },
+        "en": {
+          "question": "Which malt defines traditional grodziskie?",
+          "expectedAnswer": "Oak-smoked wheat",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Peat-smoked barley"
+            },
+            {
+              "id": "B",
+              "text": "Toasted rice"
+            },
+            {
+              "id": "C",
+              "text": "Oak-smoked wheat"
+            }
+          ]
+        }
+      },
+      "sources": [
+        "https://www.bjcp.org/style/2015/27/27A/historical-beer-piwo-grodziskie/"
+      ],
+      "provenance": {
+        "status": "original_bilingual_source_checked",
+        "checkedOn": "2026-10-13"
+      }
+    },
+    {
+      "id": 55,
+      "categoryId": 4,
+      "regionId": null,
+      "difficulty": 2,
+      "type": "qcm",
+      "correctChoiceIds": [
+        "A"
+      ],
+      "translations": {
+        "fr": {
+          "question": "Quel type de fermentation est associé au lambic traditionnel ?",
+          "expectedAnswer": "Spontanée",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Spontanée"
+            },
+            {
+              "id": "B",
+              "text": "Sans microorganismes"
+            },
+            {
+              "id": "C",
+              "text": "Uniquement lactée"
+            }
+          ]
+        },
+        "en": {
+          "question": "What fermentation type is associated with traditional lambic?",
+          "expectedAnswer": "Spontaneous",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Spontaneous"
+            },
+            {
+              "id": "B",
+              "text": "Without microorganisms"
+            },
+            {
+              "id": "C",
+              "text": "Only milk fermentation"
+            }
+          ]
+        }
+      },
+      "sources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/23/23d-lambic"
+      ],
+      "provenance": {
+        "status": "original_bilingual_source_checked",
+        "checkedOn": "2026-10-13"
+      }
+    },
+    {
+      "id": 56,
+      "categoryId": 4,
+      "regionId": null,
+      "difficulty": 3,
+      "type": "qcm",
+      "correctChoiceIds": [
+        "B"
+      ],
+      "translations": {
+        "fr": {
+          "question": "Quels âges de lambics sont traditionnellement assemblés pour une gueuze ?",
+          "expectedAnswer": "Un, deux et trois ans",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Dix, vingt et trente ans"
+            },
+            {
+              "id": "B",
+              "text": "Un, deux et trois ans"
+            },
+            {
+              "id": "C",
+              "text": "Une, deux et trois heures"
+            }
+          ]
+        },
+        "en": {
+          "question": "Which lambic ages are traditionally blended for gueuze?",
+          "expectedAnswer": "One, two and three years",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Ten, twenty and thirty years"
+            },
+            {
+              "id": "B",
+              "text": "One, two and three years"
+            },
+            {
+              "id": "C",
+              "text": "One, two and three hours"
+            }
+          ]
+        }
+      },
+      "sources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/23/23e-gueuze"
+      ],
+      "provenance": {
+        "status": "original_bilingual_source_checked",
+        "checkedOn": "2026-10-13"
+      }
+    },
+    {
+      "id": 57,
+      "categoryId": 4,
+      "regionId": null,
+      "difficulty": 3,
+      "type": "qcm",
+      "correctChoiceIds": [
+        "C"
+      ],
+      "translations": {
+        "fr": {
+          "question": "Quelle proportion minimale de blé malté indique le BJCP pour une weissbier ?",
+          "expectedAnswer": "La moitié du mélange de grains",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Un centième"
+            },
+            {
+              "id": "B",
+              "text": "Aucun blé"
+            },
+            {
+              "id": "C",
+              "text": "La moitié du mélange de grains"
+            }
+          ]
+        },
+        "en": {
+          "question": "What minimum malted wheat proportion does BJCP give for weissbier?",
+          "expectedAnswer": "Half of the grain bill",
+          "choices": [
+            {
+              "id": "A",
+              "text": "One hundredth"
+            },
+            {
+              "id": "B",
+              "text": "No wheat"
+            },
+            {
+              "id": "C",
+              "text": "Half of the grain bill"
+            }
+          ]
+        }
+      },
+      "sources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/10/10a-weissbier"
+      ],
+      "provenance": {
+        "status": "original_bilingual_source_checked",
+        "checkedOn": "2026-10-13"
+      }
+    },
+    {
+      "id": 58,
+      "categoryId": 4,
+      "regionId": null,
+      "difficulty": 3,
+      "type": "qcm",
+      "correctChoiceIds": [
+        "A"
+      ],
+      "translations": {
+        "fr": {
+          "question": "Quelle plante peut servir de lit de filtration dans le sahti traditionnel ?",
+          "expectedAnswer": "Le genévrier",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Le genévrier"
+            },
+            {
+              "id": "B",
+              "text": "La lavande"
+            },
+            {
+              "id": "C",
+              "text": "Le bambou"
+            }
+          ]
+        },
+        "en": {
+          "question": "Which plant may form the filter bed in traditional sahti?",
+          "expectedAnswer": "Juniper",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Juniper"
+            },
+            {
+              "id": "B",
+              "text": "Lavender"
+            },
+            {
+              "id": "C",
+              "text": "Bamboo"
+            }
+          ]
+        }
+      },
+      "sources": [
+        "https://www.bjcp.org/style/2015/27/27A/historical-beer-sahti/"
+      ],
+      "provenance": {
+        "status": "original_bilingual_source_checked",
+        "checkedOn": "2026-10-13"
+      }
+    },
+    {
+      "id": 59,
+      "categoryId": 4,
+      "regionId": null,
+      "difficulty": 3,
+      "type": "true_false",
+      "correctChoiceIds": [
+        "true"
+      ],
+      "translations": {
+        "fr": {
+          "question": "La bière de garde peut employer une levure de lager ou d’ale, puis une longue garde au froid.",
+          "expectedAnswer": "Vrai. La bière de garde peut employer une levure de lager ou d’ale, puis une longue garde au froid.",
+          "choices": []
+        },
+        "en": {
+          "question": "Bière de garde may use lager or ale yeast, followed by long cold conditioning.",
+          "expectedAnswer": "True. Bière de garde may use lager or ale yeast, followed by long cold conditioning.",
+          "choices": []
+        }
+      },
+      "sources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/24/24c-biere-de-garde"
+      ],
+      "provenance": {
+        "status": "original_bilingual_source_checked",
+        "checkedOn": "2026-10-13"
+      }
+    },
+    {
+      "id": 60,
+      "categoryId": 4,
+      "regionId": null,
+      "difficulty": 3,
+      "type": "qcm",
+      "correctChoiceIds": [
+        "C"
+      ],
+      "translations": {
+        "fr": {
+          "question": "Une eau pauvre en sulfates et carbonates contribue à quel profil dans une lager tchèque ?",
+          "expectedAnswer": "Une amertume douce et arrondie",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Une acidité vinaigrée"
+            },
+            {
+              "id": "B",
+              "text": "Un goût de fumée"
+            },
+            {
+              "id": "C",
+              "text": "Une amertume douce et arrondie"
+            }
+          ]
+        },
+        "en": {
+          "question": "Low-sulfate, low-carbonate water contributes to which profile in Czech lager?",
+          "expectedAnswer": "Soft, rounded bitterness",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Vinegary acidity"
+            },
+            {
+              "id": "B",
+              "text": "Smoky flavour"
+            },
+            {
+              "id": "C",
+              "text": "Soft, rounded bitterness"
+            }
+          ]
+        }
+      },
+      "sources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/3/3b-czech-premium-pale-lager"
+      ],
+      "provenance": {
+        "status": "original_bilingual_source_checked",
+        "checkedOn": "2026-10-13"
+      }
+    },
+    {
+      "id": 61,
+      "categoryId": 5,
+      "regionId": 1,
+      "difficulty": null,
+      "type": "qcm",
+      "correctChoiceIds": [
+        "A"
+      ],
+      "translations": {
+        "fr": {
+          "question": "Lors de cette escale belge, quel organisme a reconnu la culture brassicole en 2016 ?",
+          "expectedAnswer": "L’UNESCO",
+          "choices": [
+            {
+              "id": "A",
+              "text": "L’UNESCO"
+            },
+            {
+              "id": "B",
+              "text": "La NASA"
+            },
+            {
+              "id": "C",
+              "text": "La FIFA"
+            }
+          ]
+        },
+        "en": {
+          "question": "At this Belgian stop, which organisation recognised beer culture in 2016?",
+          "expectedAnswer": "UNESCO",
+          "choices": [
+            {
+              "id": "A",
+              "text": "UNESCO"
+            },
+            {
+              "id": "B",
+              "text": "NASA"
+            },
+            {
+              "id": "C",
+              "text": "FIFA"
+            }
+          ]
+        }
+      },
+      "sources": [
+        "https://ich.unesco.org/en/RL/beer-culture-in-belgium-01062"
+      ],
+      "provenance": {
+        "status": "original_bilingual_source_checked",
+        "checkedOn": "2026-10-13"
+      }
+    },
+    {
+      "id": 62,
+      "categoryId": 5,
+      "regionId": 1,
+      "difficulty": null,
+      "type": "qcm",
+      "correctChoiceIds": [
+        "B"
+      ],
+      "translations": {
+        "fr": {
+          "question": "À Bruxelles, quelle famille de bières est associée à la fermentation spontanée ?",
+          "expectedAnswer": "Le lambic",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Le porter anglais"
+            },
+            {
+              "id": "B",
+              "text": "Le lambic"
+            },
+            {
+              "id": "C",
+              "text": "La light lager"
+            }
+          ]
+        },
+        "en": {
+          "question": "In Brussels, which beer family is associated with spontaneous fermentation?",
+          "expectedAnswer": "Lambic",
+          "choices": [
+            {
+              "id": "A",
+              "text": "English porter"
+            },
+            {
+              "id": "B",
+              "text": "Lambic"
+            },
+            {
+              "id": "C",
+              "text": "Light lager"
+            }
+          ]
+        }
+      },
+      "sources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/23/23d-lambic"
+      ],
+      "provenance": {
+        "status": "original_bilingual_source_checked",
+        "checkedOn": "2026-10-13"
+      }
+    },
+    {
+      "id": 63,
+      "categoryId": 5,
+      "regionId": 1,
+      "difficulty": null,
+      "type": "open",
+      "correctChoiceIds": [],
+      "translations": {
+        "fr": {
+          "question": "Cite une épice et un agrume classiques de la witbier belge.",
+          "expectedAnswer": "Coriandre et écorce d’orange.",
+          "choices": []
+        },
+        "en": {
+          "question": "Name a classic spice and citrus ingredient in Belgian witbier.",
+          "expectedAnswer": "Coriander and orange peel.",
+          "choices": []
+        }
+      },
+      "sources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/24/24a-witbier"
+      ],
+      "provenance": {
+        "status": "original_bilingual_source_checked",
+        "checkedOn": "2026-10-13"
+      }
+    },
+    {
+      "id": 64,
+      "categoryId": 5,
+      "regionId": 1,
+      "difficulty": null,
+      "type": "true_false",
+      "correctChoiceIds": [
+        "true"
+      ],
+      "translations": {
+        "fr": {
+          "question": "La saison belge possède des racines rurales en Wallonie.",
+          "expectedAnswer": "Vrai. La saison belge possède des racines rurales en Wallonie.",
+          "choices": []
+        },
+        "en": {
+          "question": "Belgian saison has rural roots in Wallonia.",
+          "expectedAnswer": "True. Belgian saison has rural roots in Wallonia.",
+          "choices": []
+        }
+      },
+      "sources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/25/25b-saison"
+      ],
+      "provenance": {
+        "status": "original_bilingual_source_checked",
+        "checkedOn": "2026-10-13"
+      }
+    },
+    {
+      "id": 65,
+      "categoryId": 5,
+      "regionId": 2,
+      "difficulty": null,
+      "type": "qcm",
+      "correctChoiceIds": [
+        "B"
+      ],
+      "translations": {
+        "fr": {
+          "question": "En Allemagne, que signifie la famille « Weissbier » dans le contexte brassicole ?",
+          "expectedAnswer": "La bière de blé",
+          "choices": [
+            {
+              "id": "A",
+              "text": "La bière de riz"
+            },
+            {
+              "id": "B",
+              "text": "La bière de blé"
+            },
+            {
+              "id": "C",
+              "text": "Le cidre"
+            }
+          ]
+        },
+        "en": {
+          "question": "In Germany, what beer family does “Weissbier” refer to?",
+          "expectedAnswer": "Wheat beer",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Rice beer"
+            },
+            {
+              "id": "B",
+              "text": "Wheat beer"
+            },
+            {
+              "id": "C",
+              "text": "Cider"
+            }
+          ]
+        }
+      },
+      "sources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/10/10a-weissbier"
+      ],
+      "provenance": {
+        "status": "original_bilingual_source_checked",
+        "checkedOn": "2026-10-13"
+      }
+    },
+    {
+      "id": 66,
+      "categoryId": 5,
+      "regionId": 2,
+      "difficulty": null,
+      "type": "qcm",
+      "correctChoiceIds": [
+        "C"
+      ],
+      "translations": {
+        "fr": {
+          "question": "Quelle bière locale trouve-t-on à Cologne ?",
+          "expectedAnswer": "La Kölsch",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Le sahti"
+            },
+            {
+              "id": "B",
+              "text": "Le lambic"
+            },
+            {
+              "id": "C",
+              "text": "La Kölsch"
+            }
+          ]
+        },
+        "en": {
+          "question": "Which local beer is associated with Cologne?",
+          "expectedAnswer": "Kölsch",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Sahti"
+            },
+            {
+              "id": "B",
+              "text": "Lambic"
+            },
+            {
+              "id": "C",
+              "text": "Kölsch"
+            }
+          ]
+        }
+      },
+      "sources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/5/5b-kolsch"
+      ],
+      "provenance": {
+        "status": "original_bilingual_source_checked",
+        "checkedOn": "2026-10-13"
+      }
+    },
+    {
+      "id": 67,
+      "categoryId": 5,
+      "regionId": 2,
+      "difficulty": null,
+      "type": "true_false",
+      "correctChoiceIds": [
+        "true"
+      ],
+      "translations": {
+        "fr": {
+          "question": "La Festbier moderne est typiquement une lager blonde de l’Oktoberfest.",
+          "expectedAnswer": "Vrai. La Festbier moderne est typiquement une lager blonde de l’Oktoberfest.",
+          "choices": []
+        },
+        "en": {
+          "question": "Modern Festbier is typically a pale Oktoberfest lager.",
+          "expectedAnswer": "True. Modern Festbier is typically a pale Oktoberfest lager.",
+          "choices": []
+        }
+      },
+      "sources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/4/4b-festbier"
+      ],
+      "provenance": {
+        "status": "original_bilingual_source_checked",
+        "checkedOn": "2026-10-13"
+      }
+    },
+    {
+      "id": 68,
+      "categoryId": 5,
+      "regionId": 2,
+      "difficulty": null,
+      "type": "open",
+      "correctChoiceIds": [],
+      "translations": {
+        "fr": {
+          "question": "En Bavière, quels deux arômes de levure évoquent une hefeweizen ?",
+          "expectedAnswer": "Banane et clou de girofle.",
+          "choices": []
+        },
+        "en": {
+          "question": "In Bavaria, which two yeast aromas suggest a hefeweizen?",
+          "expectedAnswer": "Banana and clove.",
+          "choices": []
+        }
+      },
+      "sources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/10/10a-weissbier"
+      ],
+      "provenance": {
+        "status": "original_bilingual_source_checked",
+        "checkedOn": "2026-10-13"
+      }
+    },
+    {
+      "id": 69,
+      "categoryId": 5,
+      "regionId": 3,
+      "difficulty": null,
+      "type": "qcm",
+      "correctChoiceIds": [
+        "C"
+      ],
+      "translations": {
+        "fr": {
+          "question": "En Tchéquie, quel nom de ville a donné « pilsner » ?",
+          "expectedAnswer": "Plzeň",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Brno"
+            },
+            {
+              "id": "B",
+              "text": "Ostrava"
+            },
+            {
+              "id": "C",
+              "text": "Plzeň"
+            }
+          ]
+        },
+        "en": {
+          "question": "In Czechia, which city name gave us “pilsner”?",
+          "expectedAnswer": "Plzeň",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Brno"
+            },
+            {
+              "id": "B",
+              "text": "Ostrava"
+            },
+            {
+              "id": "C",
+              "text": "Plzeň"
+            }
+          ]
+        }
+      },
+      "sources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/3/3b-czech-premium-pale-lager"
+      ],
+      "provenance": {
+        "status": "original_bilingual_source_checked",
+        "checkedOn": "2026-10-13"
+      }
+    },
+    {
+      "id": 70,
+      "categoryId": 5,
+      "regionId": 3,
+      "difficulty": null,
+      "type": "true_false",
+      "correctChoiceIds": [
+        "true"
+      ],
+      "translations": {
+        "fr": {
+          "question": "Pilsner Urquell a été brassée pour la première fois en 1842.",
+          "expectedAnswer": "Vrai. Pilsner Urquell a été brassée pour la première fois en 1842.",
+          "choices": []
+        },
+        "en": {
+          "question": "Pilsner Urquell was first brewed in 1842.",
+          "expectedAnswer": "True. Pilsner Urquell was first brewed in 1842.",
+          "choices": []
+        }
+      },
+      "sources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/3/3b-czech-premium-pale-lager"
+      ],
+      "provenance": {
+        "status": "original_bilingual_source_checked",
+        "checkedOn": "2026-10-13"
+      }
+    },
+    {
+      "id": 71,
+      "categoryId": 5,
+      "regionId": 3,
+      "difficulty": null,
+      "type": "open",
+      "correctChoiceIds": [],
+      "translations": {
+        "fr": {
+          "question": "Nomme le brasseur bavarois lié à la naissance de Pilsner Urquell.",
+          "expectedAnswer": "Josef Groll.",
+          "choices": []
+        },
+        "en": {
+          "question": "Name the Bavarian brewer linked to the birth of Pilsner Urquell.",
+          "expectedAnswer": "Josef Groll.",
+          "choices": []
+        }
+      },
+      "sources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/3/3b-czech-premium-pale-lager"
+      ],
+      "provenance": {
+        "status": "original_bilingual_source_checked",
+        "checkedOn": "2026-10-13"
+      }
+    },
+    {
+      "id": 72,
+      "categoryId": 5,
+      "regionId": 3,
+      "difficulty": null,
+      "type": "qcm",
+      "correctChoiceIds": [
+        "C"
+      ],
+      "translations": {
+        "fr": {
+          "question": "Dans la tradition tchèque, « kvasnicové » désigne une bière…",
+          "expectedAnswer": "Avec un ajout de levure ou de moût en fermentation",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Exclusivement sans alcool"
+            },
+            {
+              "id": "B",
+              "text": "Toujours noire"
+            },
+            {
+              "id": "C",
+              "text": "Avec un ajout de levure ou de moût en fermentation"
+            }
+          ]
+        },
+        "en": {
+          "question": "In Czech brewing, “kvasnicové” refers to a beer…",
+          "expectedAnswer": "With added yeast or fermenting wort",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Exclusively alcohol-free"
+            },
+            {
+              "id": "B",
+              "text": "Always black"
+            },
+            {
+              "id": "C",
+              "text": "With added yeast or fermenting wort"
+            }
+          ]
+        }
+      },
+      "sources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/3/3b-czech-premium-pale-lager"
+      ],
+      "provenance": {
+        "status": "original_bilingual_source_checked",
+        "checkedOn": "2026-10-13"
+      }
+    },
+    {
+      "id": 73,
+      "categoryId": 5,
+      "regionId": 4,
+      "difficulty": null,
+      "type": "qcm",
+      "correctChoiceIds": [
+        "A"
+      ],
+      "translations": {
+        "fr": {
+          "question": "À Londres, quel style est l’ancêtre des stouts ?",
+          "expectedAnswer": "Le porter",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Le porter"
+            },
+            {
+              "id": "B",
+              "text": "La witbier"
+            },
+            {
+              "id": "C",
+              "text": "La saison"
+            }
+          ]
+        },
+        "en": {
+          "question": "In London, which style is the ancestor of stouts?",
+          "expectedAnswer": "Porter",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Porter"
+            },
+            {
+              "id": "B",
+              "text": "Witbier"
+            },
+            {
+              "id": "C",
+              "text": "Saison"
+            }
+          ]
+        }
+      },
+      "sources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/13/13c-english-porter"
+      ],
+      "provenance": {
+        "status": "original_bilingual_source_checked",
+        "checkedOn": "2026-10-13"
+      }
+    },
+    {
+      "id": 74,
+      "categoryId": 5,
+      "regionId": 4,
+      "difficulty": null,
+      "type": "true_false",
+      "correctChoiceIds": [
+        "true"
+      ],
+      "translations": {
+        "fr": {
+          "question": "Une Ordinary Bitter est une ale britannique.",
+          "expectedAnswer": "Vrai. Une Ordinary Bitter est une ale britannique.",
+          "choices": []
+        },
+        "en": {
+          "question": "Ordinary Bitter is a British ale.",
+          "expectedAnswer": "True. Ordinary Bitter is a British ale.",
+          "choices": []
+        }
+      },
+      "sources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/11/11a-ordinary-bitter"
+      ],
+      "provenance": {
+        "status": "original_bilingual_source_checked",
+        "checkedOn": "2026-10-13"
+      }
+    },
+    {
+      "id": 75,
+      "categoryId": 5,
+      "regionId": 4,
+      "difficulty": null,
+      "type": "qcm",
+      "correctChoiceIds": [
+        "C"
+      ],
+      "translations": {
+        "fr": {
+          "question": "Quelle teinte caractérise la British Golden Ale ?",
+          "expectedAnswer": "Dorée",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Noire opaque"
+            },
+            {
+              "id": "B",
+              "text": "Violette"
+            },
+            {
+              "id": "C",
+              "text": "Dorée"
+            }
+          ]
+        },
+        "en": {
+          "question": "What colour characterises British Golden Ale?",
+          "expectedAnswer": "Golden",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Opaque black"
+            },
+            {
+              "id": "B",
+              "text": "Purple"
+            },
+            {
+              "id": "C",
+              "text": "Golden"
+            }
+          ]
+        }
+      },
+      "sources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/12/12a-british-golden-ale"
+      ],
+      "provenance": {
+        "status": "original_bilingual_source_checked",
+        "checkedOn": "2026-10-13"
+      }
+    },
+    {
+      "id": 76,
+      "categoryId": 5,
+      "regionId": 4,
+      "difficulty": null,
+      "type": "open",
+      "correctChoiceIds": [],
+      "translations": {
+        "fr": {
+          "question": "Donne un arôme de malt classique du porter anglais.",
+          "expectedAnswer": "Chocolat, biscuit, pain grillé ou caramel sont acceptés.",
+          "choices": []
+        },
+        "en": {
+          "question": "Name a classic malt aroma in English porter.",
+          "expectedAnswer": "Chocolate, biscuit, toast or caramel are acceptable.",
+          "choices": []
+        }
+      },
+      "sources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/13/13c-english-porter"
+      ],
+      "provenance": {
+        "status": "original_bilingual_source_checked",
+        "checkedOn": "2026-10-13"
+      }
+    },
+    {
+      "id": 77,
+      "categoryId": 5,
+      "regionId": 5,
+      "difficulty": null,
+      "type": "qcm",
+      "correctChoiceIds": [
+        "B"
+      ],
+      "translations": {
+        "fr": {
+          "question": "À Dublin, quel style sombre est emblématique ?",
+          "expectedAnswer": "L’Irish stout",
+          "choices": [
+            {
+              "id": "A",
+              "text": "La Kölsch"
+            },
+            {
+              "id": "B",
+              "text": "L’Irish stout"
+            },
+            {
+              "id": "C",
+              "text": "La witbier"
+            }
+          ]
+        },
+        "en": {
+          "question": "In Dublin, which dark style is emblematic?",
+          "expectedAnswer": "Irish stout",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Kölsch"
+            },
+            {
+              "id": "B",
+              "text": "Irish stout"
+            },
+            {
+              "id": "C",
+              "text": "Witbier"
+            }
+          ]
+        }
+      },
+      "sources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/15/15b-irish-stout"
+      ],
+      "provenance": {
+        "status": "original_bilingual_source_checked",
+        "checkedOn": "2026-10-13"
+      }
+    },
+    {
+      "id": 78,
+      "categoryId": 5,
+      "regionId": 5,
+      "difficulty": null,
+      "type": "true_false",
+      "correctChoiceIds": [
+        "true"
+      ],
+      "translations": {
+        "fr": {
+          "question": "Un Irish stout peut évoquer le café sans contenir de café ajouté.",
+          "expectedAnswer": "Vrai. Un Irish stout peut évoquer le café sans contenir de café ajouté.",
+          "choices": []
+        },
+        "en": {
+          "question": "Irish stout can suggest coffee without added coffee.",
+          "expectedAnswer": "True. Irish stout can suggest coffee without added coffee.",
+          "choices": []
+        }
+      },
+      "sources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/15/15b-irish-stout"
+      ],
+      "provenance": {
+        "status": "original_bilingual_source_checked",
+        "checkedOn": "2026-10-13"
+      }
+    },
+    {
+      "id": 79,
+      "categoryId": 5,
+      "regionId": 5,
+      "difficulty": null,
+      "type": "open",
+      "correctChoiceIds": [],
+      "translations": {
+        "fr": {
+          "question": "Quel grain torréfié est caractéristique des stouts de Dublin ?",
+          "expectedAnswer": "L’orge torréfiée.",
+          "choices": []
+        },
+        "en": {
+          "question": "Which roasted grain is characteristic of Dublin stouts?",
+          "expectedAnswer": "Roasted barley.",
+          "choices": []
+        }
+      },
+      "sources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/15/15b-irish-stout"
+      ],
+      "provenance": {
+        "status": "original_bilingual_source_checked",
+        "checkedOn": "2026-10-13"
+      }
+    },
+    {
+      "id": 80,
+      "categoryId": 5,
+      "regionId": 5,
+      "difficulty": null,
+      "type": "qcm",
+      "correctChoiceIds": [
+        "B"
+      ],
+      "translations": {
+        "fr": {
+          "question": "Le service à quel gaz contribue à la texture crémeuse des stouts pression ?",
+          "expectedAnswer": "L’azote",
+          "choices": [
+            {
+              "id": "A",
+              "text": "L’oxygène pur"
+            },
+            {
+              "id": "B",
+              "text": "L’azote"
+            },
+            {
+              "id": "C",
+              "text": "L’hydrogène"
+            }
+          ]
+        },
+        "en": {
+          "question": "Dispense with which gas contributes to creamy draught stout texture?",
+          "expectedAnswer": "Nitrogen",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Pure oxygen"
+            },
+            {
+              "id": "B",
+              "text": "Nitrogen"
+            },
+            {
+              "id": "C",
+              "text": "Hydrogen"
+            }
+          ]
+        }
+      },
+      "sources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/15/15b-irish-stout"
+      ],
+      "provenance": {
+        "status": "original_bilingual_source_checked",
+        "checkedOn": "2026-10-13"
+      }
+    },
+    {
+      "id": 81,
+      "categoryId": 5,
+      "regionId": 6,
+      "difficulty": null,
+      "type": "qcm",
+      "correctChoiceIds": [
+        "C"
+      ],
+      "translations": {
+        "fr": {
+          "question": "Quelle famille brassicole est associée au nord de la France ?",
+          "expectedAnswer": "La bière de garde",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Le sahti"
+            },
+            {
+              "id": "B",
+              "text": "La Kölsch"
+            },
+            {
+              "id": "C",
+              "text": "La bière de garde"
+            }
+          ]
+        },
+        "en": {
+          "question": "Which beer family is associated with northern France?",
+          "expectedAnswer": "Bière de garde",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Sahti"
+            },
+            {
+              "id": "B",
+              "text": "Kölsch"
+            },
+            {
+              "id": "C",
+              "text": "Bière de garde"
+            }
+          ]
+        }
+      },
+      "sources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/24/24c-biere-de-garde"
+      ],
+      "provenance": {
+        "status": "original_bilingual_source_checked",
+        "checkedOn": "2026-10-13"
+      }
+    },
+    {
+      "id": 82,
+      "categoryId": 5,
+      "regionId": 6,
+      "difficulty": null,
+      "type": "true_false",
+      "correctChoiceIds": [
+        "true"
+      ],
+      "translations": {
+        "fr": {
+          "question": "La bière de garde existe en versions blonde, ambrée et brune.",
+          "expectedAnswer": "Vrai. La bière de garde existe en versions blonde, ambrée et brune.",
+          "choices": []
+        },
+        "en": {
+          "question": "Bière de garde comes in blond, amber and brown versions.",
+          "expectedAnswer": "True. Bière de garde comes in blond, amber and brown versions.",
+          "choices": []
+        }
+      },
+      "sources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/24/24c-biere-de-garde"
+      ],
+      "provenance": {
+        "status": "original_bilingual_source_checked",
+        "checkedOn": "2026-10-13"
+      }
+    },
+    {
+      "id": 83,
+      "categoryId": 5,
+      "regionId": 6,
+      "difficulty": null,
+      "type": "open",
+      "correctChoiceIds": [],
+      "translations": {
+        "fr": {
+          "question": "Quel est le sens du nom « bière de garde » ?",
+          "expectedAnswer": "Une bière destinée à être conservée.",
+          "choices": []
+        },
+        "en": {
+          "question": "What does the name “bière de garde” mean?",
+          "expectedAnswer": "A beer intended for keeping.",
+          "choices": []
+        }
+      },
+      "sources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/24/24c-biere-de-garde"
+      ],
+      "provenance": {
+        "status": "original_bilingual_source_checked",
+        "checkedOn": "2026-10-13"
+      }
+    },
+    {
+      "id": 84,
+      "categoryId": 5,
+      "regionId": 6,
+      "difficulty": null,
+      "type": "qcm",
+      "correctChoiceIds": [
+        "C"
+      ],
+      "translations": {
+        "fr": {
+          "question": "Laquelle est une référence française de bière de garde ambrée ?",
+          "expectedAnswer": "Jenlain Ambrée",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Pilsner Urquell"
+            },
+            {
+              "id": "B",
+              "text": "Anchor Liberty Ale"
+            },
+            {
+              "id": "C",
+              "text": "Jenlain Ambrée"
+            }
+          ]
+        },
+        "en": {
+          "question": "Which is a French example of amber bière de garde?",
+          "expectedAnswer": "Jenlain Ambrée",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Pilsner Urquell"
+            },
+            {
+              "id": "B",
+              "text": "Anchor Liberty Ale"
+            },
+            {
+              "id": "C",
+              "text": "Jenlain Ambrée"
+            }
+          ]
+        }
+      },
+      "sources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/24/24c-biere-de-garde"
+      ],
+      "provenance": {
+        "status": "original_bilingual_source_checked",
+        "checkedOn": "2026-10-13"
+      }
+    },
+    {
+      "id": 85,
+      "categoryId": 5,
+      "regionId": 7,
+      "difficulty": null,
+      "type": "qcm",
+      "correctChoiceIds": [
+        "A"
+      ],
+      "translations": {
+        "fr": {
+          "question": "Aux États-Unis, quelle variété de houblon est liée à Anchor Liberty Ale de 1975 ?",
+          "expectedAnswer": "Cascade",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Cascade"
+            },
+            {
+              "id": "B",
+              "text": "Saaz uniquement"
+            },
+            {
+              "id": "C",
+              "text": "Fuggle uniquement"
+            }
+          ]
+        },
+        "en": {
+          "question": "In the United States, which hop variety is linked to the 1975 Anchor Liberty Ale?",
+          "expectedAnswer": "Cascade",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Cascade"
+            },
+            {
+              "id": "B",
+              "text": "Only Saaz"
+            },
+            {
+              "id": "C",
+              "text": "Only Fuggle"
+            }
+          ]
+        }
+      },
+      "sources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/21/21a-american-ipa"
+      ],
+      "provenance": {
+        "status": "original_bilingual_source_checked",
+        "checkedOn": "2026-10-13"
+      }
+    },
+    {
+      "id": 86,
+      "categoryId": 5,
+      "regionId": 7,
+      "difficulty": null,
+      "type": "true_false",
+      "correctChoiceIds": [
+        "true"
+      ],
+      "translations": {
+        "fr": {
+          "question": "Une American IPA met généralement le houblon au premier plan.",
+          "expectedAnswer": "Vrai. Une American IPA met généralement le houblon au premier plan.",
+          "choices": []
+        },
+        "en": {
+          "question": "American IPA generally puts hops in the foreground.",
+          "expectedAnswer": "True. American IPA generally puts hops in the foreground.",
+          "choices": []
+        }
+      },
+      "sources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/21/21a-american-ipa"
+      ],
+      "provenance": {
+        "status": "original_bilingual_source_checked",
+        "checkedOn": "2026-10-13"
+      }
+    },
+    {
+      "id": 87,
+      "categoryId": 5,
+      "regionId": 7,
+      "difficulty": null,
+      "type": "qcm",
+      "correctChoiceIds": [
+        "C"
+      ],
+      "translations": {
+        "fr": {
+          "question": "Quel ajout de céréale peut entrer dans une American Light Lager ?",
+          "expectedAnswer": "Le riz ou le maïs",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Le café uniquement"
+            },
+            {
+              "id": "B",
+              "text": "Le cacao uniquement"
+            },
+            {
+              "id": "C",
+              "text": "Le riz ou le maïs"
+            }
+          ]
+        },
+        "en": {
+          "question": "Which cereal adjunct can be used in American Light Lager?",
+          "expectedAnswer": "Rice or corn",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Only coffee"
+            },
+            {
+              "id": "B",
+              "text": "Only cocoa"
+            },
+            {
+              "id": "C",
+              "text": "Rice or corn"
+            }
+          ]
+        }
+      },
+      "sources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/1/1a-american-light-lager"
+      ],
+      "provenance": {
+        "status": "original_bilingual_source_checked",
+        "checkedOn": "2026-10-13"
+      }
+    },
+    {
+      "id": 88,
+      "categoryId": 5,
+      "regionId": 7,
+      "difficulty": null,
+      "type": "open",
+      "correctChoiceIds": [],
+      "translations": {
+        "fr": {
+          "question": "Cite deux familles d’arômes de houblon possibles dans une American IPA.",
+          "expectedAnswer": "Agrumes, pin, résine, fruits tropicaux, fleurs ou épices : deux suffisent.",
+          "choices": []
+        },
+        "en": {
+          "question": "Name two possible hop aroma families in American IPA.",
+          "expectedAnswer": "Citrus, pine, resin, tropical fruit, flowers or spice: any two.",
+          "choices": []
+        }
+      },
+      "sources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/21/21a-american-ipa"
+      ],
+      "provenance": {
+        "status": "original_bilingual_source_checked",
+        "checkedOn": "2026-10-13"
+      }
+    },
+    {
+      "id": 89,
+      "categoryId": 5,
+      "regionId": 8,
+      "difficulty": null,
+      "type": "qcm",
+      "correctChoiceIds": [
+        "B"
+      ],
+      "translations": {
+        "fr": {
+          "question": "Quel ingrédient domine généralement l’équilibre d’une Scottish Light ?",
+          "expectedAnswer": "Le malt",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Le citron"
+            },
+            {
+              "id": "B",
+              "text": "Le malt"
+            },
+            {
+              "id": "C",
+              "text": "Le houblon très intense"
+            }
+          ]
+        },
+        "en": {
+          "question": "Which ingredient generally dominates Scottish Light's balance?",
+          "expectedAnswer": "Malt",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Lemon"
+            },
+            {
+              "id": "B",
+              "text": "Malt"
+            },
+            {
+              "id": "C",
+              "text": "Very intense hops"
+            }
+          ]
+        }
+      },
+      "sources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/14/14a-scottish-light"
+      ],
+      "provenance": {
+        "status": "original_bilingual_source_checked",
+        "checkedOn": "2026-10-13"
+      }
+    },
+    {
+      "id": 90,
+      "categoryId": 5,
+      "regionId": 8,
+      "difficulty": null,
+      "type": "true_false",
+      "correctChoiceIds": [
+        "false"
+      ],
+      "translations": {
+        "fr": {
+          "question": "Le malt fumé à la tourbe est obligatoire dans une Scottish Light.",
+          "expectedAnswer": "Faux. Le malt fumé à la tourbe ne fait pas partie de la Scottish Light traditionnelle.",
+          "choices": []
+        },
+        "en": {
+          "question": "Peat-smoked malt is mandatory in Scottish Light.",
+          "expectedAnswer": "False. Peat-smoked malt is not part of traditional Scottish Light.",
+          "choices": []
+        }
+      },
+      "sources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/14/14a-scottish-light"
+      ],
+      "provenance": {
+        "status": "original_bilingual_source_checked",
+        "checkedOn": "2026-10-13"
+      }
+    },
+    {
+      "id": 91,
+      "categoryId": 5,
+      "regionId": 8,
+      "difficulty": null,
+      "type": "open",
+      "correctChoiceIds": [],
+      "translations": {
+        "fr": {
+          "question": "Cite deux notes gustatives typiques d’une Scottish Light.",
+          "expectedAnswer": "Caramel, toffee, pain grillé ou fruits : deux suffisent.",
+          "choices": []
+        },
+        "en": {
+          "question": "Name two typical Scottish Light flavour notes.",
+          "expectedAnswer": "Caramel, toffee, toast or fruit: any two.",
+          "choices": []
+        }
+      },
+      "sources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/14/14a-scottish-light"
+      ],
+      "provenance": {
+        "status": "original_bilingual_source_checked",
+        "checkedOn": "2026-10-13"
+      }
+    },
+    {
+      "id": 92,
+      "categoryId": 5,
+      "regionId": 8,
+      "difficulty": null,
+      "type": "qcm",
+      "correctChoiceIds": [
+        "B"
+      ],
+      "translations": {
+        "fr": {
+          "question": "La Scottish Light appartient à quelle famille de fermentation ?",
+          "expectedAnswer": "Les ales",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Les lambics"
+            },
+            {
+              "id": "B",
+              "text": "Les ales"
+            },
+            {
+              "id": "C",
+              "text": "Les cidres"
+            }
+          ]
+        },
+        "en": {
+          "question": "Scottish Light belongs to which fermentation family?",
+          "expectedAnswer": "Ales",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Lambics"
+            },
+            {
+              "id": "B",
+              "text": "Ales"
+            },
+            {
+              "id": "C",
+              "text": "Ciders"
+            }
+          ]
+        }
+      },
+      "sources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/14/14a-scottish-light"
+      ],
+      "provenance": {
+        "status": "original_bilingual_source_checked",
+        "checkedOn": "2026-10-13"
+      }
+    },
+    {
+      "id": 93,
+      "categoryId": 5,
+      "regionId": 9,
+      "difficulty": null,
+      "type": "qcm",
+      "correctChoiceIds": [
+        "C"
+      ],
+      "translations": {
+        "fr": {
+          "question": "Quelle céréale est au cœur du grodziskie polonais traditionnel ?",
+          "expectedAnswer": "Le blé",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Le riz"
+            },
+            {
+              "id": "B",
+              "text": "Le sorgho"
+            },
+            {
+              "id": "C",
+              "text": "Le blé"
+            }
+          ]
+        },
+        "en": {
+          "question": "Which cereal is central to traditional Polish grodziskie?",
+          "expectedAnswer": "Wheat",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Rice"
+            },
+            {
+              "id": "B",
+              "text": "Sorghum"
+            },
+            {
+              "id": "C",
+              "text": "Wheat"
+            }
+          ]
+        }
+      },
+      "sources": [
+        "https://www.bjcp.org/style/2015/27/27A/historical-beer-piwo-grodziskie/"
+      ],
+      "provenance": {
+        "status": "original_bilingual_source_checked",
+        "checkedOn": "2026-10-13"
+      }
+    },
+    {
+      "id": 94,
+      "categoryId": 5,
+      "regionId": 9,
+      "difficulty": null,
+      "type": "true_false",
+      "correctChoiceIds": [
+        "true"
+      ],
+      "translations": {
+        "fr": {
+          "question": "Le malt du grodziskie traditionnel est fumé au bois de chêne.",
+          "expectedAnswer": "Vrai. Le malt du grodziskie traditionnel est fumé au bois de chêne.",
+          "choices": []
+        },
+        "en": {
+          "question": "Traditional grodziskie malt is smoked over oak.",
+          "expectedAnswer": "True. Traditional grodziskie malt is smoked over oak.",
+          "choices": []
+        }
+      },
+      "sources": [
+        "https://www.bjcp.org/style/2015/27/27A/historical-beer-piwo-grodziskie/"
+      ],
+      "provenance": {
+        "status": "original_bilingual_source_checked",
+        "checkedOn": "2026-10-13"
+      }
+    },
+    {
+      "id": 95,
+      "categoryId": 5,
+      "regionId": 9,
+      "difficulty": null,
+      "type": "open",
+      "correctChoiceIds": [],
+      "translations": {
+        "fr": {
+          "question": "Quel nom allemand est aussi donné au piwo grodziskie ?",
+          "expectedAnswer": "Grätzer.",
+          "choices": []
+        },
+        "en": {
+          "question": "What German name is also used for piwo grodziskie?",
+          "expectedAnswer": "Grätzer.",
+          "choices": []
+        }
+      },
+      "sources": [
+        "https://www.bjcp.org/style/2015/27/27A/historical-beer-piwo-grodziskie/"
+      ],
+      "provenance": {
+        "status": "original_bilingual_source_checked",
+        "checkedOn": "2026-10-13"
+      }
+    },
+    {
+      "id": 96,
+      "categoryId": 5,
+      "regionId": 9,
+      "difficulty": null,
+      "type": "qcm",
+      "correctChoiceIds": [
+        "C"
+      ],
+      "translations": {
+        "fr": {
+          "question": "Comment décrit-on la carbonatation du grodziskie traditionnel ?",
+          "expectedAnswer": "Élevée",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Absente"
+            },
+            {
+              "id": "B",
+              "text": "Toujours très faible"
+            },
+            {
+              "id": "C",
+              "text": "Élevée"
+            }
+          ]
+        },
+        "en": {
+          "question": "How is traditional grodziskie's carbonation described?",
+          "expectedAnswer": "High",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Absent"
+            },
+            {
+              "id": "B",
+              "text": "Always very low"
+            },
+            {
+              "id": "C",
+              "text": "High"
+            }
+          ]
+        }
+      },
+      "sources": [
+        "https://www.bjcp.org/style/2015/27/27A/historical-beer-piwo-grodziskie/"
+      ],
+      "provenance": {
+        "status": "original_bilingual_source_checked",
+        "checkedOn": "2026-10-13"
+      }
+    },
+    {
+      "id": 97,
+      "categoryId": 5,
+      "regionId": 10,
+      "difficulty": null,
+      "type": "qcm",
+      "correctChoiceIds": [
+        "A"
+      ],
+      "translations": {
+        "fr": {
+          "question": "Quelle plante marque le sahti finlandais traditionnel ?",
+          "expectedAnswer": "Le genévrier",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Le genévrier"
+            },
+            {
+              "id": "B",
+              "text": "Le houblon seul"
+            },
+            {
+              "id": "C",
+              "text": "La menthe"
+            }
+          ]
+        },
+        "en": {
+          "question": "Which plant marks traditional Finnish sahti?",
+          "expectedAnswer": "Juniper",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Juniper"
+            },
+            {
+              "id": "B",
+              "text": "Hops alone"
+            },
+            {
+              "id": "C",
+              "text": "Mint"
+            }
+          ]
+        }
+      },
+      "sources": [
+        "https://www.bjcp.org/style/2015/27/27A/historical-beer-sahti/"
+      ],
+      "provenance": {
+        "status": "original_bilingual_source_checked",
+        "checkedOn": "2026-10-13"
+      }
+    },
+    {
+      "id": 98,
+      "categoryId": 5,
+      "regionId": 10,
+      "difficulty": null,
+      "type": "true_false",
+      "correctChoiceIds": [
+        "true"
+      ],
+      "translations": {
+        "fr": {
+          "question": "Le sahti traditionnel est souvent peu gazéifié.",
+          "expectedAnswer": "Vrai. Le sahti traditionnel est souvent peu gazéifié.",
+          "choices": []
+        },
+        "en": {
+          "question": "Traditional sahti often has low carbonation.",
+          "expectedAnswer": "True. Traditional sahti often has low carbonation.",
+          "choices": []
+        }
+      },
+      "sources": [
+        "https://www.bjcp.org/style/2015/27/27A/historical-beer-sahti/"
+      ],
+      "provenance": {
+        "status": "original_bilingual_source_checked",
+        "checkedOn": "2026-10-13"
+      }
+    },
+    {
+      "id": 99,
+      "categoryId": 5,
+      "regionId": 10,
+      "difficulty": null,
+      "type": "open",
+      "correctChoiceIds": [],
+      "translations": {
+        "fr": {
+          "question": "Cite une céréale autre que l’orge souvent utilisée dans le sahti.",
+          "expectedAnswer": "Le seigle.",
+          "choices": []
+        },
+        "en": {
+          "question": "Name a cereal other than barley often used in sahti.",
+          "expectedAnswer": "Rye.",
+          "choices": []
+        }
+      },
+      "sources": [
+        "https://www.bjcp.org/style/2015/27/27A/historical-beer-sahti/"
+      ],
+      "provenance": {
+        "status": "original_bilingual_source_checked",
+        "checkedOn": "2026-10-13"
+      }
+    },
+    {
+      "id": 100,
+      "categoryId": 5,
+      "regionId": 10,
+      "difficulty": null,
+      "type": "qcm",
+      "correctChoiceIds": [
+        "A"
+      ],
+      "translations": {
+        "fr": {
+          "question": "Quelle levure peut être utilisée dans le sahti traditionnel ?",
+          "expectedAnswer": "La levure de boulanger",
+          "choices": [
+            {
+              "id": "A",
+              "text": "La levure de boulanger"
+            },
+            {
+              "id": "B",
+              "text": "Aucune levure"
+            },
+            {
+              "id": "C",
+              "text": "Uniquement des bactéries lactiques"
+            }
+          ]
+        },
+        "en": {
+          "question": "Which yeast may be used in traditional sahti?",
+          "expectedAnswer": "Baker’s yeast",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Baker’s yeast"
+            },
+            {
+              "id": "B",
+              "text": "No yeast"
+            },
+            {
+              "id": "C",
+              "text": "Only lactic acid bacteria"
+            }
+          ]
+        }
+      },
+      "sources": [
+        "https://www.bjcp.org/style/2015/27/27A/historical-beer-sahti/"
+      ],
+      "provenance": {
+        "status": "original_bilingual_source_checked",
+        "checkedOn": "2026-10-13"
+      }
+    }
+  ]
+}

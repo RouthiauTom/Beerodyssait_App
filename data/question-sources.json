@@ -1,0 +1,23 @@
+{
+  "pils": "https://styles.bjcp.org/bjcp-2021-beer/3/3b-czech-premium-pale-lager",
+  "wheat": "https://styles.bjcp.org/bjcp-2021-beer/10/10a-weissbier",
+  "porter": "https://styles.bjcp.org/bjcp-2021-beer/13/13c-english-porter",
+  "stout": "https://styles.bjcp.org/bjcp-2021-beer/15/15b-irish-stout",
+  "ipa": "https://styles.bjcp.org/bjcp-2021-beer/21/21a-american-ipa",
+  "wit": "https://styles.bjcp.org/bjcp-2021-beer/24/24a-witbier",
+  "saison": "https://styles.bjcp.org/bjcp-2021-beer/25/25b-saison",
+  "lambic": "https://styles.bjcp.org/bjcp-2021-beer/23/23d-lambic",
+  "gueuze": "https://styles.bjcp.org/bjcp-2021-beer/23/23e-gueuze",
+  "garde": "https://styles.bjcp.org/bjcp-2021-beer/24/24c-biere-de-garde",
+  "golden": "https://styles.bjcp.org/bjcp-2021-beer/12/12a-british-golden-ale",
+  "bitter": "https://styles.bjcp.org/bjcp-2021-beer/11/11a-ordinary-bitter",
+  "kolsch": "https://styles.bjcp.org/bjcp-2021-beer/5/5b-kolsch",
+  "fest": "https://styles.bjcp.org/bjcp-2021-beer/4/4b-festbier",
+  "scot": "https://styles.bjcp.org/bjcp-2021-beer/14/14a-scottish-light",
+  "light": "https://styles.bjcp.org/bjcp-2021-beer/1/1a-american-light-lager",
+  "sahti": "https://www.bjcp.org/style/2015/27/27A/historical-beer-sahti/",
+  "grod": "https://www.bjcp.org/style/2015/27/27A/historical-beer-piwo-grodziskie/",
+  "unesco": "https://ich.unesco.org/en/RL/beer-culture-in-belgium-01062",
+  "ingredients": "https://www.brewersassociation.org/online-courses/beer-ingredients/",
+  "process": "https://www.homebrewersassociation.org/wp-content/uploads/Ingredient-Signs.pdf"
+}

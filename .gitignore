@@ -1,0 +1,15 @@
+.tools/
+node_modules/
+dist/
+__pycache__/
+.DS_Store
+sources/audit-initial/
+test-results/
+playwright-report/
+
+# Références historiques et fichiers de travail : conserver uniquement en local
+VinodysSait_Game.zip
+sources/
+.env
+.env.*
+!.env.example

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "status": "partial_validated_rules",
+  "multipleChoice": {
+    "status": "validated_by_owner",
+    "successCondition": "exact_correct_choice_set",
+    "partialCredit": false
+  },
+  "openQuestions": {
+    "status": "validated_by_owner",
+    "responseMode": "oral",
+    "correctionFlow": [
+      "show_expected_answer",
+      "group_marks_correct_or_incorrect"
+    ],
+    "evaluation": "group_manual",
+    "timer": {
+      "status": "validated_by_owner",
+      "stopOnRevealBeforeDeadline": true,
+      "revealAtOrAfterDeadline": "incorrect",
+      "groupMayOverrideTimeout": false
+    }
+  },
+  "questionTimer": {
+    "status": "validated_by_owner",
+    "durationSeconds": 60,
+    "backgroundBehavior": "continues",
+    "closedAppBehavior": "continues",
+    "expiredOnResume": "incorrect",
+    "deadlinePersistence": "absolute_timestamp",
+    "appliesWhile": "answering_question"
+  },
+  "questionSelection": {
+    "status": "validated_by_owner",
+    "avoidRepeatedQuestionIdsWithinGame": true,
+    "historyScope": "all_players_and_languages",
+    "exhaustedFilterBehavior": "allow_repeats_in_requested_filter",
+    "changeRequestedFilterOnExhaustion": false
+  },
+  "playerOrder": {
+    "status": "validated_by_owner",
+    "initialOrder": "setup_entry_order",
+    "firstPlayer": "first_entered_player",
+    "turnProgression": "cyclic_in_entry_order"
+  }
+}

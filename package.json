@@ -1,0 +1,31 @@
+{
+  "name": "beerodyssait",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "prepare:data": "python3 -B scripts/create-questions.py",
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc --noEmit && vite build && node scripts/build-pwa.mjs",
+    "preview": "vite preview --host 127.0.0.1",
+    "test:e2e": "playwright test",
+    "test:pwa": "node scripts/test-pwa.mjs",
+    "prepare:board": "python3 -B scripts/create-board.py",
+    "test:integrity": "python3 -B scripts/check-source-integrity.py",
+    "prepare:icons": "node scripts/create-icons.mjs"
+  },
+  "devDependencies": {
+    "typescript": "~5.9.3",
+    "vitest": "~5.0.3",
+    "vite": "^6.4.1",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "@playwright/test": "^1.56.0"
+  },
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  }
+}

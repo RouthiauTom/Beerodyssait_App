@@ -1,0 +1,517 @@
+{
+  "schemaVersion": 1,
+  "status": "beer_adaptation_of_validated_rules",
+  "spaceCount": 60,
+  "startSpaceId": 0,
+  "finishSpaceId": 60,
+  "start": {
+    "id": 0,
+    "x": 0.095,
+    "y": 0.15
+  },
+  "spaces": [
+    {
+      "id": 1,
+      "order": 1,
+      "categoryId": 5,
+      "regionId": 1,
+      "x": 0.095,
+      "y": 0.235
+    },
+    {
+      "id": 2,
+      "order": 2,
+      "categoryId": 1,
+      "regionId": null,
+      "x": 0.185,
+      "y": 0.235
+    },
+    {
+      "id": 3,
+      "order": 3,
+      "categoryId": 2,
+      "regionId": null,
+      "x": 0.275,
+      "y": 0.235
+    },
+    {
+      "id": 4,
+      "order": 4,
+      "categoryId": 3,
+      "regionId": null,
+      "x": 0.365,
+      "y": 0.235
+    },
+    {
+      "id": 5,
+      "order": 5,
+      "categoryId": 4,
+      "regionId": null,
+      "x": 0.455,
+      "y": 0.235
+    },
+    {
+      "id": 6,
+      "order": 6,
+      "categoryId": 1,
+      "regionId": null,
+      "x": 0.545,
+      "y": 0.235
+    },
+    {
+      "id": 7,
+      "order": 7,
+      "categoryId": 5,
+      "regionId": 2,
+      "x": 0.635,
+      "y": 0.235
+    },
+    {
+      "id": 8,
+      "order": 8,
+      "categoryId": 2,
+      "regionId": null,
+      "x": 0.725,
+      "y": 0.235
+    },
+    {
+      "id": 9,
+      "order": 9,
+      "categoryId": 3,
+      "regionId": null,
+      "x": 0.815,
+      "y": 0.235
+    },
+    {
+      "id": 10,
+      "order": 10,
+      "categoryId": 4,
+      "regionId": null,
+      "x": 0.905,
+      "y": 0.235
+    },
+    {
+      "id": 11,
+      "order": 11,
+      "categoryId": 1,
+      "regionId": null,
+      "x": 0.905,
+      "y": 0.35
+    },
+    {
+      "id": 12,
+      "order": 12,
+      "categoryId": 5,
+      "regionId": 3,
+      "x": 0.815,
+      "y": 0.35
+    },
+    {
+      "id": 13,
+      "order": 13,
+      "categoryId": 2,
+      "regionId": null,
+      "x": 0.725,
+      "y": 0.35
+    },
+    {
+      "id": 14,
+      "order": 14,
+      "categoryId": 3,
+      "regionId": null,
+      "x": 0.635,
+      "y": 0.35
+    },
+    {
+      "id": 15,
+      "order": 15,
+      "categoryId": 4,
+      "regionId": null,
+      "x": 0.545,
+      "y": 0.35
+    },
+    {
+      "id": 16,
+      "order": 16,
+      "categoryId": 1,
+      "regionId": null,
+      "x": 0.455,
+      "y": 0.35
+    },
+    {
+      "id": 17,
+      "order": 17,
+      "categoryId": 5,
+      "regionId": 4,
+      "x": 0.365,
+      "y": 0.35
+    },
+    {
+      "id": 18,
+      "order": 18,
+      "categoryId": 2,
+      "regionId": null,
+      "x": 0.275,
+      "y": 0.35
+    },
+    {
+      "id": 19,
+      "order": 19,
+      "categoryId": 3,
+      "regionId": null,
+      "x": 0.185,
+      "y": 0.35
+    },
+    {
+      "id": 20,
+      "order": 20,
+      "categoryId": 4,
+      "regionId": null,
+      "x": 0.095,
+      "y": 0.35
+    },
+    {
+      "id": 21,
+      "order": 21,
+      "categoryId": 1,
+      "regionId": null,
+      "x": 0.095,
+      "y": 0.465
+    },
+    {
+      "id": 22,
+      "order": 22,
+      "categoryId": 2,
+      "regionId": null,
+      "x": 0.185,
+      "y": 0.465
+    },
+    {
+      "id": 23,
+      "order": 23,
+      "categoryId": 3,
+      "regionId": null,
+      "x": 0.275,
+      "y": 0.465
+    },
+    {
+      "id": 24,
+      "order": 24,
+      "categoryId": 4,
+      "regionId": null,
+      "x": 0.365,
+      "y": 0.465
+    },
+    {
+      "id": 25,
+      "order": 25,
+      "categoryId": 1,
+      "regionId": null,
+      "x": 0.455,
+      "y": 0.465
+    },
+    {
+      "id": 26,
+      "order": 26,
+      "categoryId": 5,
+      "regionId": 5,
+      "x": 0.545,
+      "y": 0.465
+    },
+    {
+      "id": 27,
+      "order": 27,
+      "categoryId": 3,
+      "regionId": null,
+      "x": 0.635,
+      "y": 0.465
+    },
+    {
+      "id": 28,
+      "order": 28,
+      "categoryId": 5,
+      "regionId": 6,
+      "x": 0.725,
+      "y": 0.465
+    },
+    {
+      "id": 29,
+      "order": 29,
+      "categoryId": 4,
+      "regionId": null,
+      "x": 0.815,
+      "y": 0.465
+    },
+    {
+      "id": 30,
+      "order": 30,
+      "categoryId": 1,
+      "regionId": null,
+      "x": 0.905,
+      "y": 0.465
+    },
+    {
+      "id": 31,
+      "order": 31,
+      "categoryId": 2,
+      "regionId": null,
+      "x": 0.905,
+      "y": 0.58
+    },
+    {
+      "id": 32,
+      "order": 32,
+      "categoryId": 3,
+      "regionId": null,
+      "x": 0.815,
+      "y": 0.58
+    },
+    {
+      "id": 33,
+      "order": 33,
+      "categoryId": 4,
+      "regionId": null,
+      "x": 0.725,
+      "y": 0.58
+    },
+    {
+      "id": 34,
+      "order": 34,
+      "categoryId": 5,
+      "regionId": 7,
+      "x": 0.635,
+      "y": 0.58
+    },
+    {
+      "id": 35,
+      "order": 35,
+      "categoryId": 1,
+      "regionId": null,
+      "x": 0.545,
+      "y": 0.58
+    },
+    {
+      "id": 36,
+      "order": 36,
+      "categoryId": 2,
+      "regionId": null,
+      "x": 0.455,
+      "y": 0.58
+    },
+    {
+      "id": 37,
+      "order": 37,
+      "categoryId": 5,
+      "regionId": 8,
+      "x": 0.365,
+      "y": 0.58
+    },
+    {
+      "id": 38,
+      "order": 38,
+      "categoryId": 3,
+      "regionId": null,
+      "x": 0.275,
+      "y": 0.58
+    },
+    {
+      "id": 39,
+      "order": 39,
+      "categoryId": 4,
+      "regionId": null,
+      "x": 0.185,
+      "y": 0.58
+    },
+    {
+      "id": 40,
+      "order": 40,
+      "categoryId": 1,
+      "regionId": null,
+      "x": 0.095,
+      "y": 0.58
+    },
+    {
+      "id": 41,
+      "order": 41,
+      "categoryId": 2,
+      "regionId": null,
+      "x": 0.095,
+      "y": 0.695
+    },
+    {
+      "id": 42,
+      "order": 42,
+      "categoryId": 3,
+      "regionId": null,
+      "x": 0.185,
+      "y": 0.695
+    },
+    {
+      "id": 43,
+      "order": 43,
+      "categoryId": 4,
+      "regionId": null,
+      "x": 0.275,
+      "y": 0.695
+    },
+    {
+      "id": 44,
+      "order": 44,
+      "categoryId": 5,
+      "regionId": 9,
+      "x": 0.365,
+      "y": 0.695
+    },
+    {
+      "id": 45,
+      "order": 45,
+      "categoryId": 1,
+      "regionId": null,
+      "x": 0.455,
+      "y": 0.695
+    },
+    {
+      "id": 46,
+      "order": 46,
+      "categoryId": 2,
+      "regionId": null,
+      "x": 0.545,
+      "y": 0.695
+    },
+    {
+      "id": 47,
+      "order": 47,
+      "categoryId": 3,
+      "regionId": null,
+      "x": 0.635,
+      "y": 0.695
+    },
+    {
+      "id": 48,
+      "order": 48,
+      "categoryId": 4,
+      "regionId": null,
+      "x": 0.725,
+      "y": 0.695
+    },
+    {
+      "id": 49,
+      "order": 49,
+      "categoryId": 1,
+      "regionId": null,
+      "x": 0.815,
+      "y": 0.695
+    },
+    {
+      "id": 50,
+      "order": 50,
+      "categoryId": 2,
+      "regionId": null,
+      "x": 0.905,
+      "y": 0.695
+    },
+    {
+      "id": 51,
+      "order": 51,
+      "categoryId": 3,
+      "regionId": null,
+      "x": 0.905,
+      "y": 0.81
+    },
+    {
+      "id": 52,
+      "order": 52,
+      "categoryId": 4,
+      "regionId": null,
+      "x": 0.815,
+      "y": 0.81
+    },
+    {
+      "id": 53,
+      "order": 53,
+      "categoryId": 1,
+      "regionId": null,
+      "x": 0.725,
+      "y": 0.81
+    },
+    {
+      "id": 54,
+      "order": 54,
+      "categoryId": 2,
+      "regionId": null,
+      "x": 0.635,
+      "y": 0.81
+    },
+    {
+      "id": 55,
+      "order": 55,
+      "categoryId": 3,
+      "regionId": null,
+      "x": 0.545,
+      "y": 0.81
+    },
+    {
+      "id": 56,
+      "order": 56,
+      "categoryId": 4,
+      "regionId": null,
+      "x": 0.455,
+      "y": 0.81
+    },
+    {
+      "id": 57,
+      "order": 57,
+      "categoryId": 1,
+      "regionId": null,
+      "x": 0.365,
+      "y": 0.81
+    },
+    {
+      "id": 58,
+      "order": 58,
+      "categoryId": 2,
+      "regionId": null,
+      "x": 0.275,
+      "y": 0.81
+    },
+    {
+      "id": 59,
+      "order": 59,
+      "categoryId": 3,
+      "regionId": null,
+      "x": 0.185,
+      "y": 0.81
+    },
+    {
+      "id": 60,
+      "order": 60,
+      "categoryId": 5,
+      "regionId": 10,
+      "x": 0.095,
+      "y": 0.81
+    }
+  ],
+  "effects": [
+    {
+      "id": "ladder_1",
+      "type": "ladder",
+      "fromSpaceId": 4,
+      "toSpaceId": 19,
+      "status": "validated_by_owner"
+    },
+    {
+      "id": "ladder_2",
+      "type": "ladder",
+      "fromSpaceId": 27,
+      "toSpaceId": 38,
+      "status": "validated_by_owner"
+    },
+    {
+      "id": "conveyor_1",
+      "type": "conveyor",
+      "fromSpaceId": 56,
+      "toSpaceId": 33,
+      "status": "validated_by_owner"
+    }
+  ]
+}
