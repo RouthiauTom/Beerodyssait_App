@@ -14,7 +14,8 @@
     "test:pwa": "node scripts/test-pwa.mjs",
     "prepare:board": "python3 -B scripts/create-board.py",
     "test:integrity": "python3 -B scripts/check-source-integrity.py",
-    "prepare:icons": "node scripts/create-icons.mjs"
+    "prepare:icons": "node scripts/create-icons.mjs",
+    "tickets": "node --experimental-strip-types scripts/generate-codes.mjs"
   },
   "devDependencies": {
     "typescript": "~5.9.3",

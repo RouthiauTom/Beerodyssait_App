@@ -13,3 +13,6 @@ sources/
 .env
 .env.*
 !.env.example
+
+# Lots de tickets : conserver hors du dépôt et du site
+.tickets/

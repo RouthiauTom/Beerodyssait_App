@@ -1,5 +1,7 @@
 import type {Game} from '../game/engine';
 import bank from '../../data/questions.json';
+import config from '../../data/bar-access.json';
+import {validateCode,normalizeCode,TicketError,type Ticket} from '../access/codes';
 
 const phases = ['ready','level_choice','awaiting_question','question','oral_judgement','correction','turn_end','finished'];
 export function validSave(value: unknown): value is Game {
@@ -52,4 +54,39 @@ let queue: Promise<unknown> = Promise.resolve();
 export function saveGame(game: Game | null): Promise<unknown> {
   queue = queue.catch(() => undefined).then(() => transaction('readwrite',game));
   return queue;
+}
+
+// Le registre local et la nouvelle partie sont écrits dans une même transaction.
+// Deux onglets ne peuvent pas consommer le même ticket simultanément.
+export async function checkTicket(code:string):Promise<Ticket>{
+ const ticket=validateCode(code,config.bars.map(b=>b.id));
+ const db=await open();
+ return new Promise((resolve,reject)=>{
+  const tx=db.transaction('local','readonly');const req=tx.objectStore('local').get('ticket:'+normalizeCode(ticket.code));
+  tx.oncomplete=()=>{db.close();if(req.result!==undefined)reject(new TicketError('used'));else resolve(ticket);};
+  tx.onerror=()=>{db.close();reject(new TicketError('storage'));};
+  tx.onabort=()=>{db.close();reject(new TicketError('storage'));};
+ });
+}
+export function startTicketGame(game:Game,code:string):Promise<void>{
+ const operation=queue.catch(()=>undefined).then(async()=>{
+  const ticket=validateCode(code,config.bars.map(b=>b.id));
+  if(!validSave(game)||game.phase!=='ready'||game.revision!==0||game.players.some(p=>p.position!==0))throw new TicketError('invalid');
+  const db=await open();
+  await new Promise<void>((resolve,reject)=>{
+   const tx=db.transaction('local','readwrite'),store=tx.objectStore('local');
+   let used=false;
+   const req=store.get('ticket:'+normalizeCode(ticket.code));
+   req.onsuccess=()=>{
+    if(req.result!==undefined){used=true;tx.abort();return;}
+    store.put({code:ticket.code,barId:ticket.barId,startedAt:Date.now()},'ticket:'+normalizeCode(ticket.code));
+    store.put(game,'game');
+   };
+   tx.oncomplete=()=>{db.close();resolve();};
+   tx.onerror=()=>{db.close();reject(new TicketError('storage'));};
+   tx.onabort=()=>{db.close();reject(new TicketError(used?'used':'storage'));};
+  });
+ });
+ queue=operation;
+ return operation;
 }

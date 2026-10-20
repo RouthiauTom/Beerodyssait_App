@@ -4,6 +4,20 @@ Jeu culturel autour de la bière pour **2 à 10 joueurs sur un appareil partagé
 
 Le parcours comprend 60 cases et dix escales : Belgique, Allemagne, Tchéquie, Angleterre, Irlande, France, États-Unis, Écosse, Pologne et Finlande. Les 100 questions originales bilingues couvrent histoire, géographie, styles/arômes, ingrédients/brassage et destinations. Trois niveaux : Curieux, Amateur et Maître brasseur. Aucun compte ni serveur de données requis.
 
+## Mode bar : une partie par ticket
+
+Une nouvelle partie demande désormais un code remis après encaissement au comptoir. Le ticket est utilisé au démarrage, puis la partie peut être reprise sans autre code. L’interface est disponible en français et en anglais.
+
+Pour créer des tickets imprimables :
+
+```sh
+./scripts/tickets.sh --bar BEER --expires 2026-12-31 --count 20
+```
+
+Le dossier `.tickets/` contient les lots locaux et reste exclu de Git. Un lot de dix tickets de test est disponible dans `.tickets/pilote-19-octobre/`.
+
+**Prototype sans serveur : la règle des codes est publique, et leur réutilisation est bloquée uniquement dans le même navigateur.** Un autre appareil ou l’effacement des données permet une réutilisation. Voir [le guide du mode bar](docs/MODE_BAR.md) pour la configuration, l’impression, le format et les limites avant un essai commercial.
+
 ## Jouer en local
 
 ```sh
