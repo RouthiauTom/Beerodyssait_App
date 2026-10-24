@@ -1,6 +1,6 @@
 # Banque bilingue — Beerodys’Sait
 
-Édition enrichie du 24 octobre 2026 : **220 questions**, chacune en français et en anglais, soit 440 énoncés. Les identifiants 1–100 sont conservés ; les ajouts occupent les identifiants 101–220. Les préfixes « Vrai ou Faux ? » ajoutés dans le CSV fourni sont repris dans le jeu.
+Édition enrichie du 24 octobre 2026 : **265 questions**, chacune en français et en anglais, soit 530 énoncés. Les identifiants 1–220 sont conservés ; la nouvelle sélection CSV occupe les identifiants 221–265. Les préfixes « Vrai ou Faux ? » ajoutés dans le CSV fourni sont repris dans le jeu.
 
 ## Fichiers et synchronisation
 
@@ -19,34 +19,34 @@ Le compilateur conserve les textes et identifiants du CSV. Il normalise les rép
 
 | Catégorie | Curieux | Amateur | Maître brasseur | Total |
 | --- | ---: | ---: | ---: | ---: |
-| Histoire | 13 | 13 | 13 | 39 |
+| Histoire | 14 | 13 | 14 | 41 |
 | Géographie | 13 | 13 | 13 | 39 |
-| Styles, arômes et accords | 13 | 13 | 13 | 39 |
-| Ingrédients et brassage | 13 | 13 | 13 | 39 |
+| Styles, arômes et accords | 13 | 14 | 15 | 42 |
+| Ingrédients et brassage | 13 | 13 | 17 | 43 |
 
-Pour chacun des douze filtres généraux, huit questions ont été ajoutées aux cinq existantes : 96 ajouts. Les questions Curieux portent sur des notions accessibles ; Amateur demande du vocabulaire ou des connaissances plus précises ; Maître brasseur porte notamment sur des dates, des procédés et des distinctions techniques. Cette graduation est éditoriale, pas encore étalonnée auprès de joueurs.
+L’enrichissement initial a ajouté huit questions à chacun des douze filtres généraux. La sélection CSV ajoute neuf questions générales supplémentaires. Les questions Curieux portent sur des notions accessibles ; Amateur demande du vocabulaire ou des connaissances plus précises ; Maître brasseur porte notamment sur des dates, des procédés et des distinctions techniques. Cette graduation est éditoriale, pas encore étalonnée auprès de joueurs.
 
-Les escales comportent 64 questions communes sans sélection de niveau, dont 24 ajouts :
+Les escales comportent 100 questions communes sans sélection de niveau :
 
 | Escale | Questions |
 | --- | ---: |
-| Belgique | 7 |
-| Allemagne | 7 |
-| Tchéquie | 6 |
-| Angleterre | 7 |
-| Irlande | 6 |
-| France | 7 |
-| États-Unis | 7 |
-| Écosse | 7 |
-| Pologne | 4 |
-| Finlande | 6 |
+| Belgique | 9 |
+| Allemagne | 12 |
+| Tchéquie | 11 |
+| Angleterre | 10 |
+| Irlande | 10 |
+| France | 12 |
+| États-Unis | 12 |
+| Écosse | 10 |
+| Pologne | 6 |
+| Finlande | 8 |
 
-La banque polonaise existante est conservée : les passages du livre consultés n’offrent pas assez de matière sur cette escale pour justifier un ajout. La tradition finlandaise du sahti est, elle, abordée dans le passage consacré à la Norvège et ses voisins. Le plateau et les règles ne changent pas.
+La sélection CSV enrichit également les escales polonaise et finlandaise avec des sujets distincts du grodziskie et du sahti. La tradition finlandaise du sahti est, elle, abordée dans le passage consacré à la Norvège et ses voisins. Le plateau et les règles ne changent pas.
 
 ## Formats
 
-- 162 questions de type `qcm`.
-- 36 questions de type `true_false`.
+- 190 questions de type `qcm`.
+- 53 questions de type `true_false`.
 - 22 questions de type `open`.
 
 Les QCM de cette édition ont une bonne réponse parmi trois choix ; le moteur garde la prise en charge de choix multiples. Les questions ouvertes sont révélées puis évaluées par le groupe. Les corrections des nouveaux énoncés précisent le fait attendu et apportent une explication courte.
@@ -61,7 +61,7 @@ La sélection utilise principalement les chapitres sur les ingrédients, le bras
 
 Chaque ajout contient une référence bibliographique dans `sources` et une référence structurée dans `provenance.reference` : livre, ISBN, année, chapitre ou annexe, section et localisation dans l’EPUB. Les quatre colonnes `source_book`, `source_chapter`, `source_section`, `source_locator` du CSV conservent cette traçabilité. Les identifiants de sections et chapitres correspondent à l’édition fournie ; ils ne prétendent pas donner une pagination universelle pour toutes les éditions.
 
-Dans l’application, une référence de livre s’affiche en texte après la correction ; les sources web restent des liens. Aucun lien vers le fichier EPUB n’est exposé. Le livre, son texte extrait et les scripts de lecture temporaires restent locaux et exclus de Git et de `dist/`. Les seuls éléments bibliographiques additionnels publiables sont les métadonnées de `data/book-reference.json` et les références des questions.
+Les questions et les corrections sont autonomes : elles ne demandent pas d’avoir lu un ouvrage et ne mentionnent ni le livre ni ses chapitres. Aucune source web ou bibliographique n’est affichée aux joueurs, après une réponse orale comme après une correction automatique. Les références restent uniquement dans les données éditoriales pour permettre les vérifications et la maintenance. Aucun lien vers le fichier EPUB n’est exposé. Le livre, son texte extrait et les scripts de lecture temporaires restent locaux et exclus de Git et de `dist/`. Les seuls éléments bibliographiques additionnels publiables sont les métadonnées de `data/book-reference.json` et les références des questions.
 
 ## Références web de la banque initiale
 
@@ -94,3 +94,23 @@ Dans l’application, une référence de livre s’affiche en texte après la co
 Modifier le CSV, puis lancer les quatre commandes de vérification ci-dessus. Un nouvel énoncé doit disposer des deux langues, d’une correction et d’une source vérifiable. Un ajout fondé sur ce livre doit également renseigner les quatre colonnes bibliographiques. Ne pas réutiliser un identifiant publié pour une autre question : les sauvegardes mémorisent ces identifiants.
 
 L’EPUB n’est pas requis pour compiler et tester le jeu après l’enrichissement. Il faut cependant relire la source lors de toute nouvelle rédaction ou correction de fait. Les contrôles automatiques vérifient la structure et la cohérence du jeu ; ils ne prouvent pas la vérité de chaque réponse.
+
+## Présentation aux joueurs
+
+34 énoncés et 51 corrections ont été reformulés en français et en anglais pour retirer les renvois au livre, aux chapitres ou aux passages. Les 220 identifiants, catégories, niveaux et réponses correctes sont conservés. Un contrôle des textes affichables interdit les mentions du livre et les liens de sources dans les questions et corrections.
+
+## Sélection du CSV de 300 propositions — 24 octobre 2026
+
+45 questions ont été retenues et relues dans les deux langues : neuf générales et 36 régionales. Elles sont ajoutées aux CSV et JSON éditoriaux, sous les identifiants 221–265. Les 220 questions antérieures conservent leur contenu et leurs identifiants. Le fichier de propositions GEMINI est conservé sans modification et n’est pas chargé par le jeu.
+
+Le [relevé de sélection](REVUE_IMPORT_GEMINI.csv) contient les 300 identifiants d’origine, le statut de sélection, l’identifiant attribué, le niveau initial et la référence de vérification des ajouts. « Non intégrée » ne signifie pas forcément erronée : ces propositions comprennent des doublons thématiques et des sujets qui nécessitent encore une reformulation ou une vérification. Elles ne constituent pas une réserve validée.
+
+Les vérifications s’appuient notamment sur les producteurs concernés, le BJCP, les instituts techniques et les organismes touristiques officiels. Les affirmations variables (classements, seuils légaux, records commerciaux) n’ont pas été retenues. La pinte est présentée comme une valeur approximative ; le Šnyt ne reprend pas le ratio moitié bière/moitié mousse ; le widget est un dispositif libérant de l’azote ; Jim Koch est présenté comme cofondateur. Les questions sont autonomes et les références restent invisibles aux joueurs.
+
+Les catégories importées sont rattachées aux thèmes existants. « Culture-bar » rejoint la dégustation ; les pays sont convertis vers les dix escales et perdent leur difficulté, conformément aux règles du jeu. Les choix et bonnes réponses FR/EN restent alignés et les positions des bonnes réponses QCM sont réparties entre A, B et C.
+
+## Corrections pédagogiques — 24 octobre 2026
+
+Les 265 corrections FR/EN comportent un texte explicatif court dans `expectedAnswer`, affiché après la réponse, correcte ou incorrecte, et lors de la révélation des questions ouvertes. Les 145 corrections initiales ou importées ont reçu un complément ; 34 corrections répétitives de l’enrichissement précédent ont été réécrites. Les autres disposaient déjà d’une explication utile.
+
+Les textes apportent une définition, une distinction, une raison ou un repère historique ou géographique. Ils restent autonomes et sans sources affichées. Les identifiants, énoncés, choix, bonnes réponses, catégories et niveaux ne changent pas. Pour maintenir cette qualité, les tests refusent une correction réduite à un choix ou à la simple répétition d’un énoncé vrai/faux.

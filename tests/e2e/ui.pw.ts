@@ -79,7 +79,7 @@ test('failed answer shows correction before returning to the previous position',
  await page.getByRole('button',{name:'Commencer la partie'}).click();await page.getByRole('button',{name:'Lancer le dé'}).click();await page.getByRole('button',{name:'Tirer une question'}).click();
  await page.getByText('La NASA',{exact:true}).click();await page.getByRole('button',{name:'Valider ma réponse'}).click();
  await expect(page.locator('.result')).toHaveText('Incorrect');await expect(page.locator('.turn-context')).toContainText('Étape 1 / 60');
- await expect(page.locator('.answer-text')).toContainText('UNESCO');await expect(page.locator('.question-source')).toHaveAttribute('href',/unesco/);
+ await expect(page.locator('.answer-text')).toContainText('UNESCO');await expect(page.locator('.question-source')).toHaveCount(0);
  await page.getByRole('button',{name:'Continuer'}).click();await expect(page.locator('.turn-context')).toContainText('Étape 0 / 60');
  await page.getByRole('button',{name:'Joueur suivant'}).click();await expect(page.locator('.active-player h1')).toHaveText('Bob');
  await expect.poll(()=>page.evaluate(()=>localStorage.getItem('beerodyssait.preferences'))).not.toBeNull();
@@ -155,17 +155,19 @@ test('a failed game write rolls back ticket consumption and allows a retry',asyn
  await page.getByRole('button',{name:'Commencer la partie'}).click();await expect(page.locator('.game-layout')).toBeVisible();
 });
 
-test('book-based questions show their bibliographic source without linking the local EPUB',async({page})=>{
+test('questions and corrections are self-contained and show no source to players',async({page})=>{
  await page.addInitScript(()=>{Math.random=()=>0;});await page.goto('/');
  await page.getByRole('button',{name:'Nouvelle partie'}).click();await redeem(page);
  await page.getByLabel('Joueur 1',{exact:true}).fill('Alice');await page.getByLabel('Joueur 2',{exact:true}).fill('Bob');await page.getByRole('button',{name:'Commencer la partie'}).click();
  await page.getByRole('button',{name:'Lancer le dé'}).click();await page.evaluate(()=>{Math.random=()=>.99999;});await page.getByRole('button',{name:'Tirer une question'}).click();
  const id=Number(await page.locator('.question-text').getAttribute('data-question-id'));expect(id).toBeGreaterThan(100);
  const q=questions.questions.find(q=>q.id===id);
+ await expect(page.locator('.question-text')).not.toContainText(/livre|book/i);
  if(q.type==='open'){await page.getByRole('button',{name:'Voir la réponse'}).click();}
  else{
   for(const correct of q.correctChoiceIds){const label=q.type==='true_false'?(correct==='true'?'Vrai':'Faux'):q.translations.fr.choices.find(c=>c.id===correct).text;await page.locator('.choices label').filter({hasText:label}).click();}
   await page.getByRole('button',{name:'Valider ma réponse'}).click();
  }
- await expect(page.locator('.book-source')).toContainText('La Bière pour les Nuls');await expect(page.locator('.book-source')).toContainText('chap. 16');await expect(page.locator('a[href$=".epub"]')).toHaveCount(0);
+ await expect(page.locator('.answer-text')).toHaveText(q.translations.fr.expectedAnswer);
+ await expect(page.locator('.answer-text')).not.toContainText(/livre|book|chapitre|chapter|https:/i);await expect(page.locator('.question-source,.book-source')).toHaveCount(0);await expect(page.locator('.turn-card a')).toHaveCount(0);await expect(page.locator('a[href$=".epub"]')).toHaveCount(0);
 });

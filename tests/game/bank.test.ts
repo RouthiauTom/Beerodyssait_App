@@ -5,10 +5,10 @@ import regions from '../../data/regions.json';
 import {createGame,transition,type Question,type Action} from '../../src/game/engine';
 const questions=bank.questions as Question[];
 describe('original bilingual bank and international board',()=>{
- it('has 220 unique questions, ten destinations and all three formats',()=>{
-  expect(questions).toHaveLength(220);expect(new Set(questions.map(q=>q.id)).size).toBe(220);
+ it('has 265 unique questions, ten destinations and all three formats',()=>{
+  expect(questions).toHaveLength(265);expect(new Set(questions.map(q=>q.id)).size).toBe(265);
   expect(regions).toHaveLength(10);expect(new Set(questions.map(q=>q.type))).toEqual(new Set(['qcm','true_false','open']));
-  for(const language of ['fr','en'] as const)expect(new Set(questions.map(q=>q.translations[language].question)).size).toBe(220);
+  for(const language of ['fr','en'] as const)expect(new Set(questions.map(q=>q.translations[language].question)).size).toBe(265);
  });
  it('provides complete translations, valid answers and source attribution',()=>{
   for(const q of questions){
@@ -23,8 +23,8 @@ describe('original bilingual bank and international board',()=>{
    expect(q.translations.fr.choices.map(c=>c.id)).toEqual(q.translations.en.choices.map(c=>c.id));
   }
  });
- it('covers every general category and level with thirteen questions and every destination with at least four',()=>{
-  for(let category=1;category<=4;category++)for(let level=1;level<=3;level++)expect(questions.filter(q=>q.categoryId===category&&q.difficulty===level)).toHaveLength(13);
+ it('covers every general category and level with at least thirteen questions and every destination with at least four',()=>{
+  for(let category=1;category<=4;category++)for(let level=1;level<=3;level++)expect(questions.filter(q=>q.categoryId===category&&q.difficulty===level).length).toBeGreaterThanOrEqual(13);
   for(const region of regions)expect(questions.filter(q=>q.categoryId===5&&q.regionId===region.id&&q.difficulty===null).length).toBeGreaterThanOrEqual(4);
  });
  it('draws successfully from every space and level in both languages',()=>{

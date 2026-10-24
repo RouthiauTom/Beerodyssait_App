@@ -35,13 +35,13 @@ class QuestionBankTest(unittest.TestCase):
         compiled = compiler.compile_bank(compiler.DEFAULT_CSV)
         actual = json.loads((ROOT / 'data/questions.json').read_text(encoding='utf-8'))
         self.assertEqual(compiled, actual)
-        self.assertEqual([q['id'] for q in actual['questions']], list(range(1, 221)))
+        self.assertEqual([q['id'] for q in actual['questions']], list(range(1, 266)))
         # Le préfixe ajouté dans le CSV fourni doit se retrouver dans le jeu.
         self.assertTrue(actual['questions'][3]['translations']['fr']['question'].startswith('Vrai ou Faux ?'))
 
     def test_all_120_additions_have_bilingual_corrections_and_book_locations(self):
         bank = compiler.compile_bank(compiler.DEFAULT_CSV)
-        new = [q for q in bank['questions'] if q['id'] > 100]
+        new = [q for q in bank['questions'] if 101 <= q['id'] <= 220]
         self.assertEqual(len(new), 120)
         for question in new:
             ref = question['provenance']['reference']
@@ -54,6 +54,19 @@ class QuestionBankTest(unittest.TestCase):
         for category in range(1, 5):
             for level in range(1, 4):
                 self.assertEqual(sum(q['categoryId'] == category and q['difficulty'] == level for q in new), 8)
+
+    def test_curated_import_is_traceable_and_does_not_replace_existing_ids(self):
+        with (ROOT / 'docs/REVUE_IMPORT_GEMINI.csv').open(encoding='utf-8-sig', newline='') as handle:
+            review = list(csv.DictReader(handle))
+        self.assertEqual(len(review), 300)
+        accepted = [r for r in review if r['status'] == 'intégrée']
+        self.assertEqual({int(r['new_id']) for r in accepted}, set(range(221, 266)))
+        bank = compiler.compile_bank(compiler.DEFAULT_CSV)['questions']
+        for row in accepted:
+            question = next(q for q in bank if q['id'] == int(row['new_id']))
+            self.assertIn(row['source'], question['sources'])
+            self.assertEqual(question['provenance']['status'], 'curated_import_source_checked')
+        self.assertEqual(len({r['original_id'] for r in review}), 300)
 
     def test_uppercase_spreadsheet_booleans_are_normalized(self):
         rows = copy.deepcopy(self.rows)
@@ -89,6 +102,31 @@ class QuestionBankTest(unittest.TestCase):
             self.compile_rows(rows)
         with self.assertRaisesRegex(ValueError, 'Filtre vide'):
             self.compile_rows([r for r in self.rows if not (r['categoryId'] == '1' and r['difficulty'] == '1')])
+
+    def test_player_texts_are_independent_of_the_reference_book(self):
+        for row in self.rows:
+            for field in ['question_fr', 'question_en', 'expectedAnswer_fr', 'expectedAnswer_en']:
+                with self.subTest(id=row['id'], field=field):
+                    self.assertNotRegex(row[field], r'(?i)\b(livre|book|chapitre|chapter|annexe|appendix|passage)\b|https?://|9782412080061')
+
+    def test_every_correction_contains_more_than_the_bare_answer(self):
+        # Éviter le retour à des réponses réduites à « Plzeň » ou à un vrai/faux
+        # qui ne fait que recopier l’énoncé. Ces cas n’apportent aucune explication.
+        for row in self.rows:
+            for language in ['fr', 'en']:
+                with self.subTest(id=row['id'], language=language):
+                    answer = row[f'expectedAnswer_{language}'].strip()
+                    question = row[f'question_{language}'].strip()
+                    self.assertGreater(len(answer.split()), 5)
+                    self.assertNotEqual(answer.rstrip('.'), question.rstrip('.'))
+                    if row['type'] == 'true_false':
+                        for prefix in ['Vrai. ', 'Faux. ', 'True. ', 'False. ']:
+                            self.assertNotEqual(answer, prefix + question)
+                    else:
+                        for choice in 'ABC':
+                            text = row[f'choice{choice}_{language}'].strip()
+                            if text:
+                                self.assertNotEqual(answer.rstrip('.'), text.rstrip('.'))
 
     def test_check_mode_is_read_only(self):
         before = (ROOT / 'data/questions.json').read_bytes()
