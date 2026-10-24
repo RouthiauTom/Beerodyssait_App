@@ -1,0 +1,684 @@
+{
+  "reason": "Références de l’export CSV déformées ; URLs exactes récupérées depuis la banque jouable avant enrichissement. Textes et identifiants conservés.",
+  "repairs": [
+    {
+      "id": 1,
+      "csvSource": "https:--styles.bjcp.org-bjcp-2021-beer-3-3b-czech-premium-pale-lager",
+      "restoredSources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/3/3b-czech-premium-pale-lager"
+      ]
+    },
+    {
+      "id": 2,
+      "csvSource": "https:--styles.bjcp.org-bjcp-2021-beer-13-13c-english-porter",
+      "restoredSources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/13/13c-english-porter"
+      ]
+    },
+    {
+      "id": 3,
+      "csvSource": "https:--ich.unesco.org-en-RL-beer-culture-in-belgium-01062",
+      "restoredSources": [
+        "https://ich.unesco.org/en/RL/beer-culture-in-belgium-01062"
+      ]
+    },
+    {
+      "id": 4,
+      "csvSource": "https:--styles.bjcp.org-bjcp-2021-beer-24-24c-biere-de-garde",
+      "restoredSources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/24/24c-biere-de-garde"
+      ]
+    },
+    {
+      "id": 5,
+      "csvSource": "https:--styles.bjcp.org-bjcp-2021-beer-14-14a-scottish-light",
+      "restoredSources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/14/14a-scottish-light"
+      ]
+    },
+    {
+      "id": 6,
+      "csvSource": "https:--styles.bjcp.org-bjcp-2021-beer-3-3b-czech-premium-pale-lager",
+      "restoredSources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/3/3b-czech-premium-pale-lager"
+      ]
+    },
+    {
+      "id": 7,
+      "csvSource": "https:--styles.bjcp.org-bjcp-2021-beer-10-10a-weissbier",
+      "restoredSources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/10/10a-weissbier"
+      ]
+    },
+    {
+      "id": 8,
+      "csvSource": "https:--styles.bjcp.org-bjcp-2021-beer-21-21a-american-ipa",
+      "restoredSources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/21/21a-american-ipa"
+      ]
+    },
+    {
+      "id": 9,
+      "csvSource": "https:--styles.bjcp.org-bjcp-2021-beer-24-24c-biere-de-garde",
+      "restoredSources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/24/24c-biere-de-garde"
+      ]
+    },
+    {
+      "id": 10,
+      "csvSource": "https:--styles.bjcp.org-bjcp-2021-beer-13-13c-english-porter",
+      "restoredSources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/13/13c-english-porter"
+      ]
+    },
+    {
+      "id": 11,
+      "csvSource": "https:--styles.bjcp.org-bjcp-2021-beer-3-3b-czech-premium-pale-lager",
+      "restoredSources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/3/3b-czech-premium-pale-lager"
+      ]
+    },
+    {
+      "id": 12,
+      "csvSource": "https:--styles.bjcp.org-bjcp-2021-beer-13-13c-english-porter",
+      "restoredSources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/13/13c-english-porter"
+      ]
+    },
+    {
+      "id": 13,
+      "csvSource": "https:--styles.bjcp.org-bjcp-2021-beer-10-10a-weissbier",
+      "restoredSources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/10/10a-weissbier"
+      ]
+    },
+    {
+      "id": 14,
+      "csvSource": "https:--styles.bjcp.org-bjcp-2021-beer-14-14a-scottish-light",
+      "restoredSources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/14/14a-scottish-light"
+      ]
+    },
+    {
+      "id": 15,
+      "csvSource": "https:--styles.bjcp.org-bjcp-2021-beer-1-1a-american-light-lager",
+      "restoredSources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/1/1a-american-light-lager"
+      ]
+    },
+    {
+      "id": 16,
+      "csvSource": "https:--styles.bjcp.org-bjcp-2021-beer-24-24a-witbier",
+      "restoredSources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/24/24a-witbier"
+      ]
+    },
+    {
+      "id": 17,
+      "csvSource": "https:--styles.bjcp.org-bjcp-2021-beer-10-10a-weissbier",
+      "restoredSources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/10/10a-weissbier"
+      ]
+    },
+    {
+      "id": 18,
+      "csvSource": "https:--styles.bjcp.org-bjcp-2021-beer-15-15b-irish-stout",
+      "restoredSources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/15/15b-irish-stout"
+      ]
+    },
+    {
+      "id": 19,
+      "csvSource": "https:--www.bjcp.org-style-2015-27-27A-historical-beer-piwo-grodziskie-",
+      "restoredSources": [
+        "https://www.bjcp.org/style/2015/27/27A/historical-beer-piwo-grodziskie/"
+      ]
+    },
+    {
+      "id": 20,
+      "csvSource": "https:--www.bjcp.org-style-2015-27-27A-historical-beer-sahti-",
+      "restoredSources": [
+        "https://www.bjcp.org/style/2015/27/27A/historical-beer-sahti/"
+      ]
+    },
+    {
+      "id": 21,
+      "csvSource": "https:--styles.bjcp.org-bjcp-2021-beer-25-25b-saison",
+      "restoredSources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/25/25b-saison"
+      ]
+    },
+    {
+      "id": 22,
+      "csvSource": "https:--styles.bjcp.org-bjcp-2021-beer-5-5b-kolsch",
+      "restoredSources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/5/5b-kolsch"
+      ]
+    },
+    {
+      "id": 23,
+      "csvSource": "https:--styles.bjcp.org-bjcp-2021-beer-23-23d-lambic",
+      "restoredSources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/23/23d-lambic"
+      ]
+    },
+    {
+      "id": 24,
+      "csvSource": "https:--styles.bjcp.org-bjcp-2021-beer-24-24c-biere-de-garde",
+      "restoredSources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/24/24c-biere-de-garde"
+      ]
+    },
+    {
+      "id": 25,
+      "csvSource": "https:--styles.bjcp.org-bjcp-2021-beer-3-3b-czech-premium-pale-lager",
+      "restoredSources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/3/3b-czech-premium-pale-lager"
+      ]
+    },
+    {
+      "id": 26,
+      "csvSource": "https:--www.bjcp.org-style-2015-27-27A-historical-beer-piwo-grodziskie-",
+      "restoredSources": [
+        "https://www.bjcp.org/style/2015/27/27A/historical-beer-piwo-grodziskie/"
+      ]
+    },
+    {
+      "id": 27,
+      "csvSource": "https:--www.bjcp.org-style-2015-27-27A-historical-beer-sahti-",
+      "restoredSources": [
+        "https://www.bjcp.org/style/2015/27/27A/historical-beer-sahti/"
+      ]
+    },
+    {
+      "id": 28,
+      "csvSource": "https:--styles.bjcp.org-bjcp-2021-beer-4-4b-festbier",
+      "restoredSources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/4/4b-festbier"
+      ]
+    },
+    {
+      "id": 29,
+      "csvSource": "https:--styles.bjcp.org-bjcp-2021-beer-11-11a-ordinary-bitter",
+      "restoredSources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/11/11a-ordinary-bitter"
+      ]
+    },
+    {
+      "id": 30,
+      "csvSource": "https:--styles.bjcp.org-bjcp-2021-beer-14-14a-scottish-light",
+      "restoredSources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/14/14a-scottish-light"
+      ]
+    },
+    {
+      "id": 31,
+      "csvSource": "https:--styles.bjcp.org-bjcp-2021-beer-15-15b-irish-stout",
+      "restoredSources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/15/15b-irish-stout"
+      ]
+    },
+    {
+      "id": 32,
+      "csvSource": "https:--styles.bjcp.org-bjcp-2021-beer-10-10a-weissbier",
+      "restoredSources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/10/10a-weissbier"
+      ]
+    },
+    {
+      "id": 33,
+      "csvSource": "https:--styles.bjcp.org-bjcp-2021-beer-21-21a-american-ipa",
+      "restoredSources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/21/21a-american-ipa"
+      ]
+    },
+    {
+      "id": 34,
+      "csvSource": "https:--styles.bjcp.org-bjcp-2021-beer-24-24a-witbier",
+      "restoredSources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/24/24a-witbier"
+      ]
+    },
+    {
+      "id": 35,
+      "csvSource": "https:--styles.bjcp.org-bjcp-2021-beer-13-13c-english-porter",
+      "restoredSources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/13/13c-english-porter"
+      ]
+    },
+    {
+      "id": 36,
+      "csvSource": "https:--styles.bjcp.org-bjcp-2021-beer-23-23e-gueuze",
+      "restoredSources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/23/23e-gueuze"
+      ]
+    },
+    {
+      "id": 37,
+      "csvSource": "https:--styles.bjcp.org-bjcp-2021-beer-25-25b-saison",
+      "restoredSources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/25/25b-saison"
+      ]
+    },
+    {
+      "id": 38,
+      "csvSource": "https:--styles.bjcp.org-bjcp-2021-beer-14-14a-scottish-light",
+      "restoredSources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/14/14a-scottish-light"
+      ]
+    },
+    {
+      "id": 39,
+      "csvSource": "https:--styles.bjcp.org-bjcp-2021-beer-24-24c-biere-de-garde",
+      "restoredSources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/24/24c-biere-de-garde"
+      ]
+    },
+    {
+      "id": 40,
+      "csvSource": "https:--styles.bjcp.org-bjcp-2021-beer-1-1a-american-light-lager",
+      "restoredSources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/1/1a-american-light-lager"
+      ]
+    },
+    {
+      "id": 41,
+      "csvSource": "https:--styles.bjcp.org-bjcp-2021-beer-10-10a-weissbier",
+      "restoredSources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/10/10a-weissbier"
+      ]
+    },
+    {
+      "id": 42,
+      "csvSource": "https:--styles.bjcp.org-bjcp-2021-beer-23-23e-gueuze",
+      "restoredSources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/23/23e-gueuze"
+      ]
+    },
+    {
+      "id": 43,
+      "csvSource": "https:--www.bjcp.org-style-2015-27-27A-historical-beer-piwo-grodziskie-",
+      "restoredSources": [
+        "https://www.bjcp.org/style/2015/27/27A/historical-beer-piwo-grodziskie/"
+      ]
+    },
+    {
+      "id": 44,
+      "csvSource": "https:--styles.bjcp.org-bjcp-2021-beer-15-15b-irish-stout",
+      "restoredSources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/15/15b-irish-stout"
+      ]
+    },
+    {
+      "id": 45,
+      "csvSource": "https:--styles.bjcp.org-bjcp-2021-beer-3-3b-czech-premium-pale-lager",
+      "restoredSources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/3/3b-czech-premium-pale-lager"
+      ]
+    },
+    {
+      "id": 46,
+      "csvSource": "https:--www.brewersassociation.org-online-courses-beer-ingredients-",
+      "restoredSources": [
+        "https://www.brewersassociation.org/online-courses/beer-ingredients/"
+      ]
+    },
+    {
+      "id": 47,
+      "csvSource": "https:--www.homebrewersassociation.org-wp-content-uploads-Ingredient-Signs.pdf",
+      "restoredSources": [
+        "https://www.homebrewersassociation.org/wp-content/uploads/Ingredient-Signs.pdf"
+      ]
+    },
+    {
+      "id": 48,
+      "csvSource": "https:--www.homebrewersassociation.org-wp-content-uploads-Ingredient-Signs.pdf",
+      "restoredSources": [
+        "https://www.homebrewersassociation.org/wp-content/uploads/Ingredient-Signs.pdf"
+      ]
+    },
+    {
+      "id": 49,
+      "csvSource": "https:--www.brewersassociation.org-online-courses-beer-ingredients-",
+      "restoredSources": [
+        "https://www.brewersassociation.org/online-courses/beer-ingredients/"
+      ]
+    },
+    {
+      "id": 50,
+      "csvSource": "https:--www.homebrewersassociation.org-wp-content-uploads-Ingredient-Signs.pdf",
+      "restoredSources": [
+        "https://www.homebrewersassociation.org/wp-content/uploads/Ingredient-Signs.pdf"
+      ]
+    },
+    {
+      "id": 53,
+      "csvSource": "https://styles.bjcp.org/bjcp-2021/beer/24/24a-witbier",
+      "restoredSources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/24/24a-witbier"
+      ]
+    },
+    {
+      "id": 54,
+      "csvSource": "https://www.bjcp.org/style/2015/27/27A-historical-beer-piwo-grodziskie/",
+      "restoredSources": [
+        "https://www.bjcp.org/style/2015/27/27A/historical-beer-piwo-grodziskie/"
+      ]
+    },
+    {
+      "id": 55,
+      "csvSource": "https://styles.bjcp.org/bjcp-2021/beer/23/23d-lambic",
+      "restoredSources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/23/23d-lambic"
+      ]
+    },
+    {
+      "id": 56,
+      "csvSource": "https://styles.bjcp.org/bjcp-2021/beer/23/23e-gueuze",
+      "restoredSources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/23/23e-gueuze"
+      ]
+    },
+    {
+      "id": 57,
+      "csvSource": "https://styles.bjcp.org/bjcp-2021/beer/10/10a-weissbier",
+      "restoredSources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/10/10a-weissbier"
+      ]
+    },
+    {
+      "id": 58,
+      "csvSource": "https://www.bjcp.org/style/2015/27/27A-historical-beer-sahti/",
+      "restoredSources": [
+        "https://www.bjcp.org/style/2015/27/27A/historical-beer-sahti/"
+      ]
+    },
+    {
+      "id": 59,
+      "csvSource": "https://styles.bjcp.org/bjcp-2021/beer/24/24c-biere-de-garde",
+      "restoredSources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/24/24c-biere-de-garde"
+      ]
+    },
+    {
+      "id": 60,
+      "csvSource": "https://styles.bjcp.org/bjcp-2021/beer/3/3b-czech-premium-pale-lager",
+      "restoredSources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/3/3b-czech-premium-pale-lager"
+      ]
+    },
+    {
+      "id": 62,
+      "csvSource": "https://styles.bjcp.org/bjcp-2021/beer/23/23d-lambic",
+      "restoredSources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/23/23d-lambic"
+      ]
+    },
+    {
+      "id": 63,
+      "csvSource": "https://styles.bjcp.org/bjcp-2021/beer/24/24a-witbier",
+      "restoredSources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/24/24a-witbier"
+      ]
+    },
+    {
+      "id": 64,
+      "csvSource": "https://styles.bjcp.org/bjcp-2021/beer/25/25b-saison",
+      "restoredSources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/25/25b-saison"
+      ]
+    },
+    {
+      "id": 65,
+      "csvSource": "https://styles.bjcp.org/bjcp-2021/beer/10/10a-weissbier",
+      "restoredSources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/10/10a-weissbier"
+      ]
+    },
+    {
+      "id": 66,
+      "csvSource": "https://styles.bjcp.org/bjcp-2021/beer/5/5b-kolsch",
+      "restoredSources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/5/5b-kolsch"
+      ]
+    },
+    {
+      "id": 67,
+      "csvSource": "https://styles.bjcp.org/bjcp-2021/beer/4/4b-festbier",
+      "restoredSources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/4/4b-festbier"
+      ]
+    },
+    {
+      "id": 68,
+      "csvSource": "https://styles.bjcp.org/bjcp-2021/beer/10/10a-weissbier",
+      "restoredSources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/10/10a-weissbier"
+      ]
+    },
+    {
+      "id": 69,
+      "csvSource": "https://styles.bjcp.org/bjcp-2021/beer/3/3b-czech-premium-pale-lager",
+      "restoredSources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/3/3b-czech-premium-pale-lager"
+      ]
+    },
+    {
+      "id": 70,
+      "csvSource": "https://styles.bjcp.org/bjcp-2021/beer/3/3b-czech-premium-pale-lager",
+      "restoredSources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/3/3b-czech-premium-pale-lager"
+      ]
+    },
+    {
+      "id": 71,
+      "csvSource": "https://styles.bjcp.org/bjcp-2021/beer/3/3b-czech-premium-pale-lager",
+      "restoredSources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/3/3b-czech-premium-pale-lager"
+      ]
+    },
+    {
+      "id": 72,
+      "csvSource": "https://styles.bjcp.org/bjcp-2021/beer/3/3b-czech-premium-pale-lager",
+      "restoredSources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/3/3b-czech-premium-pale-lager"
+      ]
+    },
+    {
+      "id": 73,
+      "csvSource": "https://styles.bjcp.org/bjcp-2021/beer/13/13c-english-porter",
+      "restoredSources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/13/13c-english-porter"
+      ]
+    },
+    {
+      "id": 74,
+      "csvSource": "https://styles.bjcp.org/bjcp-2021/beer/11/11a-ordinary-bitter",
+      "restoredSources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/11/11a-ordinary-bitter"
+      ]
+    },
+    {
+      "id": 75,
+      "csvSource": "https://styles.bjcp.org/bjcp-2021/beer/12/12a-british-golden-ale",
+      "restoredSources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/12/12a-british-golden-ale"
+      ]
+    },
+    {
+      "id": 76,
+      "csvSource": "https://styles.bjcp.org/bjcp-2021/beer/13/13c-english-porter",
+      "restoredSources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/13/13c-english-porter"
+      ]
+    },
+    {
+      "id": 77,
+      "csvSource": "https://styles.bjcp.org/bjcp-2021/beer/15/15b-irish-stout",
+      "restoredSources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/15/15b-irish-stout"
+      ]
+    },
+    {
+      "id": 78,
+      "csvSource": "https://styles.bjcp.org/bjcp-2021/beer/15/15b-irish-stout",
+      "restoredSources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/15/15b-irish-stout"
+      ]
+    },
+    {
+      "id": 79,
+      "csvSource": "https://styles.bjcp.org/bjcp-2021/beer/15/15b-irish-stout",
+      "restoredSources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/15/15b-irish-stout"
+      ]
+    },
+    {
+      "id": 80,
+      "csvSource": "https://styles.bjcp.org/bjcp-2021/beer/15/15b-irish-stout",
+      "restoredSources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/15/15b-irish-stout"
+      ]
+    },
+    {
+      "id": 81,
+      "csvSource": "https://styles.bjcp.org/bjcp-2021/beer/24/24c-biere-de-garde",
+      "restoredSources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/24/24c-biere-de-garde"
+      ]
+    },
+    {
+      "id": 82,
+      "csvSource": "https://styles.bjcp.org/bjcp-2021/beer/24/24c-biere-de-garde",
+      "restoredSources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/24/24c-biere-de-garde"
+      ]
+    },
+    {
+      "id": 83,
+      "csvSource": "https://styles.bjcp.org/bjcp-2021/beer/24/24c-biere-de-garde",
+      "restoredSources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/24/24c-biere-de-garde"
+      ]
+    },
+    {
+      "id": 84,
+      "csvSource": "https://styles.bjcp.org/bjcp-2021/beer/24/24c-biere-de-garde",
+      "restoredSources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/24/24c-biere-de-garde"
+      ]
+    },
+    {
+      "id": 85,
+      "csvSource": "https://styles.bjcp.org/bjcp-2021/beer/21/21a-american-ipa",
+      "restoredSources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/21/21a-american-ipa"
+      ]
+    },
+    {
+      "id": 86,
+      "csvSource": "https://styles.bjcp.org/bjcp-2021/beer/21/21a-american-ipa",
+      "restoredSources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/21/21a-american-ipa"
+      ]
+    },
+    {
+      "id": 87,
+      "csvSource": "https://styles.bjcp.org/bjcp-2021/beer/1/1a-american-light-lager",
+      "restoredSources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/1/1a-american-light-lager"
+      ]
+    },
+    {
+      "id": 88,
+      "csvSource": "https://styles.bjcp.org/bjcp-2021/beer/21/21a-american-ipa",
+      "restoredSources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/21/21a-american-ipa"
+      ]
+    },
+    {
+      "id": 89,
+      "csvSource": "https://styles.bjcp.org/bjcp-2021/beer/14/14a-scottish-light",
+      "restoredSources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/14/14a-scottish-light"
+      ]
+    },
+    {
+      "id": 90,
+      "csvSource": "https://styles.bjcp.org/bjcp-2021/beer/14/14a-scottish-light",
+      "restoredSources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/14/14a-scottish-light"
+      ]
+    },
+    {
+      "id": 91,
+      "csvSource": "https://styles.bjcp.org/bjcp-2021/beer/14/14a-scottish-light",
+      "restoredSources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/14/14a-scottish-light"
+      ]
+    },
+    {
+      "id": 92,
+      "csvSource": "https://styles.bjcp.org/bjcp-2021/beer/14/14a-scottish-light",
+      "restoredSources": [
+        "https://styles.bjcp.org/bjcp-2021-beer/14/14a-scottish-light"
+      ]
+    },
+    {
+      "id": 93,
+      "csvSource": "https://www.bjcp.org/style/2015/27/27A-historical-beer-piwo-grodziskie/",
+      "restoredSources": [
+        "https://www.bjcp.org/style/2015/27/27A/historical-beer-piwo-grodziskie/"
+      ]
+    },
+    {
+      "id": 94,
+      "csvSource": "https://www.bjcp.org/style/2015/27/27A-historical-beer-piwo-grodziskie/",
+      "restoredSources": [
+        "https://www.bjcp.org/style/2015/27/27A/historical-beer-piwo-grodziskie/"
+      ]
+    },
+    {
+      "id": 95,
+      "csvSource": "https://www.bjcp.org/style/2015/27/27A-historical-beer-piwo-grodziskie/",
+      "restoredSources": [
+        "https://www.bjcp.org/style/2015/27/27A/historical-beer-piwo-grodziskie/"
+      ]
+    },
+    {
+      "id": 96,
+      "csvSource": "https://www.bjcp.org/style/2015/27/27A-historical-beer-piwo-grodziskie/",
+      "restoredSources": [
+        "https://www.bjcp.org/style/2015/27/27A/historical-beer-piwo-grodziskie/"
+      ]
+    },
+    {
+      "id": 97,
+      "csvSource": "https://www.bjcp.org/style/2015/27/27A-historical-beer-sahti/",
+      "restoredSources": [
+        "https://www.bjcp.org/style/2015/27/27A/historical-beer-sahti/"
+      ]
+    },
+    {
+      "id": 98,
+      "csvSource": "https://www.bjcp.org/style/2015/27/27A-historical-beer-sahti/",
+      "restoredSources": [
+        "https://www.bjcp.org/style/2015/27/27A/historical-beer-sahti/"
+      ]
+    },
+    {
+      "id": 99,
+      "csvSource": "https://www.bjcp.org/style/2015/27/27A-historical-beer-sahti/",
+      "restoredSources": [
+        "https://www.bjcp.org/style/2015/27/27A/historical-beer-sahti/"
+      ]
+    },
+    {
+      "id": 100,
+      "csvSource": "https://www.bjcp.org/style/2015/27/27A-historical-beer-sahti/",
+      "restoredSources": [
+        "https://www.bjcp.org/style/2015/27/27A/historical-beer-sahti/"
+      ]
+    }
+  ]
+}

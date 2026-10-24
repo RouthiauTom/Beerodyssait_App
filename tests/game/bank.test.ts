@@ -5,14 +5,14 @@ import regions from '../../data/regions.json';
 import {createGame,transition,type Question,type Action} from '../../src/game/engine';
 const questions=bank.questions as Question[];
 describe('original bilingual bank and international board',()=>{
- it('has 100 unique questions, ten destinations and all three formats',()=>{
-  expect(questions).toHaveLength(100);expect(new Set(questions.map(q=>q.id)).size).toBe(100);
+ it('has 220 unique questions, ten destinations and all three formats',()=>{
+  expect(questions).toHaveLength(220);expect(new Set(questions.map(q=>q.id)).size).toBe(220);
   expect(regions).toHaveLength(10);expect(new Set(questions.map(q=>q.type))).toEqual(new Set(['qcm','true_false','open']));
-  for(const language of ['fr','en'] as const)expect(new Set(questions.map(q=>q.translations[language].question)).size).toBe(100);
+  for(const language of ['fr','en'] as const)expect(new Set(questions.map(q=>q.translations[language].question)).size).toBe(220);
  });
  it('provides complete translations, valid answers and source attribution',()=>{
   for(const q of questions){
-   expect(q.sources.length).toBeGreaterThan(0);q.sources.forEach(s=>expect(s).toMatch(/^https:\/\//));
+   expect(q.sources.length).toBeGreaterThan(0);q.sources.forEach(s=>expect(s).toMatch(/^(https:\/\/|La Bière pour les Nuls)/));
    for(const language of ['fr','en'] as const){
     const t=q.translations[language];expect(t.question.trim().length).toBeGreaterThan(10);expect(t.expectedAnswer.trim().length).toBeGreaterThan(0);
     const ids=t.choices.map(c=>c.id);expect(new Set(ids).size).toBe(ids.length);expect(new Set(t.choices.map(c=>c.text)).size).toBe(ids.length);
@@ -23,9 +23,9 @@ describe('original bilingual bank and international board',()=>{
    expect(q.translations.fr.choices.map(c=>c.id)).toEqual(q.translations.en.choices.map(c=>c.id));
   }
  });
- it('covers every general category and level with at least five questions and each destination with four',()=>{
-  for(let category=1;category<=4;category++)for(let level=1;level<=3;level++)expect(questions.filter(q=>q.categoryId===category&&q.difficulty===level)).toHaveLength(5);
-  for(const region of regions)expect(questions.filter(q=>q.categoryId===5&&q.regionId===region.id&&q.difficulty===null)).toHaveLength(4);
+ it('covers every general category and level with thirteen questions and every destination with at least four',()=>{
+  for(let category=1;category<=4;category++)for(let level=1;level<=3;level++)expect(questions.filter(q=>q.categoryId===category&&q.difficulty===level)).toHaveLength(13);
+  for(const region of regions)expect(questions.filter(q=>q.categoryId===5&&q.regionId===region.id&&q.difficulty===null).length).toBeGreaterThanOrEqual(4);
  });
  it('draws successfully from every space and level in both languages',()=>{
   const players=[{id:'a',name:'A',tokenId:'1',color:'#000'},{id:'b',name:'B',tokenId:'2',color:'#fff'}];

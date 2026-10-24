@@ -16,3 +16,6 @@ sources/
 
 # Lots de tickets : conserver hors du dépôt et du site
 .tickets/
+
+# Livre de référence local, non redistribué
+data/*.epub

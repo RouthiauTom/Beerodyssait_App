@@ -25,6 +25,8 @@ jobs:
         run: npm ci
       - name: Vérifier les règles et la banque bilingue
         run: npm test
+      - name: Vérifier le CSV et sa synchronisation
+        run: npm run check:data && npm run test:data
       - name: Compiler la version statique et le cache hors ligne
         run: npm run build
       - uses: actions/upload-pages-artifact@v4

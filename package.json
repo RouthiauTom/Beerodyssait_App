@@ -15,7 +15,9 @@
     "prepare:board": "python3 -B scripts/create-board.py",
     "test:integrity": "python3 -B scripts/check-source-integrity.py",
     "prepare:icons": "node scripts/create-icons.mjs",
-    "tickets": "node --experimental-strip-types scripts/generate-codes.mjs"
+    "tickets": "node --experimental-strip-types scripts/generate-codes.mjs",
+    "check:data": "python3 -B scripts/create-questions.py --check",
+    "test:data": "python3 -B -m unittest discover -s tests/data -v"
   },
   "devDependencies": {
     "typescript": "~5.9.3",
